@@ -31,7 +31,7 @@ const Navbar = () => {
         <Link href="/applications" className="flex 
           justify-center items-center min-w-[130px]">
         <CustomButton
-          title="Application"
+          title="Applications"
           btnType="button"
           containerStyles="text-primary-black100  rounded-full bg-white min-w-[130px]"
         />
