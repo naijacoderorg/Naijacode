@@ -22,7 +22,7 @@ const About = () => {
 
             <div className="xl:flex-[1.5] flex justify-end items-end w-full xl:h-screen padding-x">
                 <div className="hero__image">
-                    <Image src="/aboutusyouth.png" alt="hero" 
+                    <Image src="./aboutusyouth.png" alt="hero" 
                     fill className="object-contain" />
                 </div>
             </div>
@@ -35,7 +35,7 @@ const About = () => {
                 <div className="flex justify-center gap-14 p-3 sm:flex-shrink">
                     <div className="flex flex-col items-center text-center">
                         <div className="image__card mb-2">
-                            <Image src="/Daniel_Alabi.jpg" alt="hero" width={118} height={118} className="object-contain" />
+                            <Image src="./Daniel_Alabi.jpg" alt="hero" width={118} height={118} className="object-contain" />
                             <div>Daniel Alabi, Ph.D.</div>
                         </div>
                         <div className="name__title mb-2">Founder and Head Instructor</div>
@@ -43,7 +43,7 @@ const About = () => {
                     </div>
                     <div className="flex flex-col items-center text-center">
                         <div className="image__card mb-2">
-                            <Image src="/Lekan_Afuye.jpg" alt="hero" width={118} height={118} className="object-contain" />
+                            <Image src="./Lekan_Afuye.jpg" alt="hero" width={118} height={118} className="object-contain" />
                             <div>Lekan Afuye, Ph.D.</div>
                         </div>
                         <div className="name__title">Vice President</div>
@@ -51,7 +51,7 @@ const About = () => {
                     </div>
                     <div className="flex flex-col items-center text-center">
                         <div className="image__card mb-2">
-                            <Image src="/Alida_Monaco.jpg" alt="hero" width={118} height={118} className="object-contain" />
+                            <Image src="./Alida_Monaco.jpg" alt="hero" width={118} height={118} className="object-contain" />
                             <div>Alida Monaco</div>
                         </div>
                         <div className="name__title">Chief of Operations</div>
@@ -59,7 +59,7 @@ const About = () => {
                     </div>
                     <div className="flex flex-col items-center text-center">
                         <div className="image__card mb-2">
-                            <Image src="/Philip_Abel.jpg" alt="hero" width={118} height={118} className="object-contain" />
+                            <Image src="./Philip_Abel.jpg" alt="hero" width={118} height={118} className="object-contain" />
                             <div>Philip Abel</div>
                         </div>
                         <div className="name__title">Secretary</div>
@@ -69,28 +69,28 @@ const About = () => {
                 <div className="flex justify-center gap-14 p-3 sm:flex-shrink">
                     <div className="flex flex-col items-center text-center">
                         <div className="image__card mb-2">
-                            <Image src="/Zaidat_Ibrahim.jpg" alt="hero" width={118} height={118} className="object-contain" />
+                            <Image src="./Zaidat_Ibrahim.jpg" alt="hero" width={118} height={118} className="object-contain" />
                         </div>
                         <div className="name__title">Zaidat Ibrahim</div>
                         <div className="linkedin__link">www.linkedin.com</div>
                     </div>
                     <div className="flex flex-col items-center text-center">
                         <div className="image__card mb-2">
-                            <Image src="/Victory_Yinka-Banjo.jpg" alt="hero" width={118} height={118} className="object-contain" />
+                            <Image src="./Victory_Yinka-Banjo.jpg" alt="hero" width={118} height={118} className="object-contain" />
                         </div>
                         <div className="name__title">Victory Yinka-Banjo</div>
                         <div className="linkedin__link">www.linkedin.com</div>
                     </div>
                     <div className="flex flex-col items-center text-center">
                         <div className="image__card mb-2">
-                            <Image src="/Ojima_Abraham.JPG" alt="hero" width={118} height={118} className="object-contain" />
+                            <Image src="./Ojima_Abraham.JPG" alt="hero" width={118} height={118} className="object-contain" />
                         </div>
                         <div className="name__title">Ojima Abraham</div>
                         <div className="linkedin__link">www.linkedin.com</div>
                     </div>
                     <div className="flex flex-col items-center text-center">
                         <div className="image__card mb-2">
-                            <Image src="/Atinuke_Adegbile.jpg" alt="hero" width={118} height={118} className="object-contain" />
+                            <Image src="./Atinuke_Adegbile.jpg" alt="hero" width={118} height={118} className="object-contain" />
                         </div>
                         <div className="name__title">Atinuke Adegbile</div>
                         <div className="linkedin__link">www.linkedin.com</div>
@@ -99,7 +99,7 @@ const About = () => {
                 <div className="flex justify-center gap-14 p-3 sm:flex-shrink">
                     <div className="flex flex-col items-center text-center">
                         <div className="image__card mb-2">
-                            <Image src="/Hamidah_Oderinwale.jpg" alt="hero" width={118} height={118} className="object-contain" />
+                            <Image src="./Hamidah_Oderinwale.jpg" alt="hero" width={118} height={118} className="object-contain" />
                             <div>Hamidah Oderinwale</div>
                         </div>
                         <div className="name__title">Hamidah Oderinwale</div>
@@ -107,7 +107,7 @@ const About = () => {
                     </div>
                     <div className="flex flex-col items-center text-center">
                         <div className="image__card mb-2">
-                            <Image src="/Eric_Mibuari.jpg" alt="hero" width={118} height={118} className="object-contain" />
+                            <Image src="./Eric_Mibuari.jpg" alt="hero" width={118} height={118} className="object-contain" />
                             <div>Eric Mibuari</div>
                         </div>
                         <div className="name__title">Eric Mibuari</div>
@@ -115,7 +115,7 @@ const About = () => {
                     </div>
                     <div className="flex flex-col items-center text-center">
                         <div className="image__card mb-2">
-                            <Image src="/Joshua_Nwozor.jpg" alt="hero" width={118} height={118} className="object-contain" />
+                            <Image src="./Joshua_Nwozor.jpg" alt="hero" width={118} height={118} className="object-contain" />
                             <div>Joshua Nwozor</div>
                         </div>
                         <div className="name__title">Joshua Nwozor</div>
@@ -123,7 +123,7 @@ const About = () => {
                     </div>
                     <div className="flex flex-col items-center text-center">
                         <div className="image__card mb-2">
-                            <Image src="/Akachukwu_Obi.jpg" alt="hero" width={118} height={118} className="object-contain" />
+                            <Image src="./Akachukwu_Obi.jpg" alt="hero" width={118} height={118} className="object-contain" />
                             <div>Akachukwu Obi</div>
                         </div>
                         <div className="name__title">Akachukwu Obi</div>
@@ -133,28 +133,28 @@ const About = () => {
                 <div className="flex justify-center gap-14 p-3 sm:flex-shrink">
                     <div className="flex flex-col items-center text-center">
                         <div className="image__card mb-2">
-                            <Image src="/Joseph_Ekpenyong.jpg" alt="hero" width={118} height={118} className="object-contain" />
+                            <Image src="./Joseph_Ekpenyong.jpg" alt="hero" width={118} height={118} className="object-contain" />
                         </div>
                         <div className="name__title">Joseph Ekpenyong</div>
                         <div className="linkedin__link">www.linkedin.com</div>
                     </div>
                     <div className="flex flex-col items-center text-center">
                         <div className="image__card mb-2">
-                            <Image src="/Ekene_Ezeunala.jpg" alt="hero" width={118} height={118} className="object-contain" />
+                            <Image src="./Ekene_Ezeunala.jpg" alt="hero" width={118} height={118} className="object-contain" />
                         </div>
                         <div className="name__title">Ekene Ezeunala</div>
                         <div className="linkedin__link">www.linkedin.com</div>
                     </div>
                     <div className="flex flex-col items-center text-center">
                         <div className="image__card mb-2">
-                            <Image src="/Jelani_Nelson.jpg" alt="hero" width={118} height={118} className="object-contain" />
+                            <Image src="./Jelani_Nelson.jpg" alt="hero" width={118} height={118} className="object-contain" />
                         </div>
                         <div className="name__title">Jelani Nelson</div>
                         <div className="linkedin__link">www.linkedin.com</div>
                     </div>
                     <div className="flex flex-col items-center text-center">
                         <div className="image__card mb-2">
-                            <Image src="/Benem_Davids.jpg" alt="hero" width={118} height={118} className="object-contain" />
+                            <Image src="./Benem_Davids.jpg" alt="hero" width={118} height={118} className="object-contain" />
                             <div>Benem Davids, Ph.D.</div>
 
                             <div className="name__title">Webmaster</div>
