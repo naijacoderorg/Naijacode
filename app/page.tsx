@@ -16,7 +16,7 @@ export default function Home() {
       <div className="hero">
         <div className="hero__image-container">
           <div className="hero__image">
-            <Image src="/aboutalgo2.png" alt="hero" fill className="object-contain" />
+            <Image src="./aboutalgo2.png" alt="hero" fill className="object-contain" />
           </div>
         </div>
         <div className="flex-1 pt-36 padding-x">
@@ -35,7 +35,7 @@ export default function Home() {
       <div className="hero">
         <div className="hero__image-container">
           <div className="hero__image">
-            <Image src="/programing.png" alt="hero" fill className="object-contain" />
+            <Image src="./programing.png" alt="hero" fill className="object-contain" />
           </div>
         </div>
         <div className="flex-1 pt-36 padding-x">
@@ -61,7 +61,7 @@ export default function Home() {
       </div>
       <div className="hero__image-container padding-x">
         <div className="hero__image">
-          <Image src="/mentoring.png" alt="hero" fill className="object-contain" />
+          <Image src="./mentoring.png" alt="hero" fill className="object-contain" />
         </div>
       </div>
 
@@ -75,7 +75,7 @@ export default function Home() {
 
       <div className="hero__image-container">
         <div className="hero__image">
-          <Image src="/supporters.png" alt="hero" fill className="object-contain" />
+          <Image src="./supporters.png" alt="hero" fill className="object-contain" />
         </div>
       </div>
     </main>
