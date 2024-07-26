@@ -6,7 +6,7 @@ const ContactForm = () => {
   const form = useRef();
   const [messageSent, setMessageSent] = useState(false);
 
-  const sendEmail = (e) => {
+  const sendEmail = (e: React.FormEvent) => {
     e.preventDefault();
     //
 
