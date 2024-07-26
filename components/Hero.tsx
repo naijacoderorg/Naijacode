@@ -30,7 +30,7 @@ const Hero = () => {
                 <CustomButton
                     title="Student Application"
                     containerStyles="bg-primary-blue 
-                    text-white rounded-full mt-10 py-4"
+                    text-white rounded-full mt-10 py-4 outline"
                     handleClick={handleScroll}
                 />
                 </Link>
