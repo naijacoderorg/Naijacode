@@ -6,7 +6,7 @@ const About = () => {
     <>
     <div className="flex-1 px-20 text-center">
     <div className="flex-1 pt-36 padding-x hero__subtitle py-9">
-                    <h1>About Us</h1>
+                    <h1 className="hero__title justify-center text-center items-center">About Us</h1>
                     <p>Youth in Nigeria have little exposure to computer programming.
                         This lack of exposure hinders future opportunities. NaijaCoder is
                         geared towards using computer science as a tool for a better economic,
