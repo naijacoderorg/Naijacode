@@ -28,7 +28,7 @@ const Hero = () => {
 
                   <Link href="/applications"> 
                 <CustomButton
-                    title="Student application"
+                    title="Student Application"
                     containerStyles="bg-primary-blue 
                     text-white rounded-full mt-10 py-4"
                     handleClick={handleScroll}
