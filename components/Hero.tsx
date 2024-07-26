@@ -21,7 +21,7 @@ const Hero = () => {
                 <CustomButton
                     title=" Learn More "
                     containerStyles="bg-primary-blue 
-                    text-white rounded-full mt-10 border-2"
+                    text-white rounded-full mt-10 border-4 border-primary-blue"
                     handleClick={handleScroll}
                 />
                 </Link>
@@ -29,7 +29,7 @@ const Hero = () => {
                   <Link href="/applications"> 
                 <CustomButton
                     title=" Student Application "
-                    containerStyles="bg-primary-blue border-2 
+                    containerStyles="bg-primary-blue border-4 border-primary-blue 
                     text-white rounded-full mt-10 py-4 "
                     handleClick={handleScroll}
                 />
