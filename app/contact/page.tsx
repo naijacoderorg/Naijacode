@@ -56,7 +56,7 @@ const ContactForm = () => {
                     id="name"
                     type="text"
                     name="name"
-                    required="required"
+                    required
                     placeholder="Name"
                     className="appearance-none bg-transparent border-none w-full text-gray-700 mr-3 py-1 px-2 leading-tight focus:outline-none bg-cool-darker font-bold text-3xl"
                   />
@@ -69,7 +69,7 @@ const ContactForm = () => {
                     name="email"
                     placeholder="Email"
                     pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
-                    required="required"
+                    required
                     className="appearance-none bg-transparent border-none w-full text-gray-700 mr-3 py-1 px-2 leading-tight focus:outline-none font-bold  text-3xl"
                   />
                 </label>
@@ -79,7 +79,7 @@ const ContactForm = () => {
                     id="message"
                     name="message"
                     rows="5"
-                    required="required"
+                    required
                     placeholder="Please write your message here"
                     className="appearance-none bg-transparent border-none w-full text-gray-700 mr-3 py-1 px-2 leading-tight focus:outline-none bg-cool-darker text-cool-beige text-2xl font-bold"
                   ></textarea>
