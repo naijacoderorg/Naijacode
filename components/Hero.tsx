@@ -20,7 +20,7 @@ const Hero = () => {
                 <Link href="/about"> 
                 <CustomButton
                     title=" Learn More "
-                    containerStyles="bg-primary-blue 
+                    containerStyles=" custom-btn bg-primary-blue 
                     text-white rounded-full mt-10 border-4 border-primary-blue"
                     handleClick={handleScroll}
                 />
@@ -29,7 +29,7 @@ const Hero = () => {
                   <Link href="/applications"> 
                 <CustomButton
                     title=" Student Application "
-                    containerStyles="bg-primary-blue border-4 border-primary-blue 
+                    containerStyles="custom-btn bg-primary-blue border-4 border-primary-blue 
                     text-white rounded-full mt-10 py-4 "
                     handleClick={handleScroll}
                 />
