@@ -83,7 +83,7 @@ const About = () => {
                     </div>
                     <div className="flex flex-col items-center text-center">
                         <div className="image__card mb-2">
-                            <Image src="./Ojima_Abraham.JPG" alt="hero" width={118} height={118} className="object-contain" />
+                            <Image src="./Ojima_Abraham.jpg" alt="hero" width={118} height={118} className="object-contain" />
                         </div>
                         <div className="name__title">Ojima Abraham</div>
                         <div className="linkedin__link">www.linkedin.com</div>
