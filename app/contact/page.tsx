@@ -10,17 +10,19 @@ const ContactForm = () => {
     e.preventDefault();
     //
 
-    emailjs.sendForm('service_pq0gnpi', 'template_0ignmts', form.current, 'zo3GYpyo57wLc3Dyr')
-      .then(
-        (result) => {
-         // console.log('SUCCESS!', result.text);
-          setMessageSent(true);
-          form.current.reset(); // Reset the form
-        },
-        (error) => {
-         // console.error('FAILED...', error.text);
-        }
-      );
+   if (form.current) {
+      emailjs.sendForm('service_pq0gnpi', 'template_0ignmts', form.current, 'zo3GYpyo57wLc3Dyr')
+        .then(
+          (result) => {
+            // console.log('SUCCESS!', result.text);
+            setMessageSent(true);
+            form.current.reset(); // Reset the form
+          },
+          (error) => {
+            // console.error('FAILED...', error.text);
+          }
+        );
+    }
   };
 
   return (
