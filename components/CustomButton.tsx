@@ -19,3 +19,4 @@ const CustomButton = ({ title, containerStyles, handleClick, btnType }: CustomBu
     </button>
   );
 };
+export default CustomButton;
