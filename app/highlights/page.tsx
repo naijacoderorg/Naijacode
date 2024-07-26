@@ -13,7 +13,7 @@ const highlights = () => {
 
       <div className=" flex pt-36 padding-x ">
           <div className="highlight__image-container ">
-              <img src="/studenthighlights.png" alt ="hero"
+              <img src="./studenthighlights.png" alt ="hero"
               className="object-contain" />
               
           </div>
