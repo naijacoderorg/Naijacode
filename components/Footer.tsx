@@ -20,7 +20,7 @@ const Footer = () => {
         <div className="flex flex-col justify-start items-start gap-1 px-6">
           <h3 className="text-lg font-bold text-gray-800">LINKS</h3>
           <Link href="https://educationusa.state.gov" className="text-base text-gray-700">Scholarships Opportunities</Link>
-          <Link href="https://arxiv.org/abs/2310.20488" text-base text-gray-700">Papers</Link>
+          <Link href="https://arxiv.org/abs/2310.20488" className="text-base text-gray-700">Paper</Link>
           <Link href="/highlights" className="text-base text-gray-700">Student Higlights</Link>
         </div>
       </div>
