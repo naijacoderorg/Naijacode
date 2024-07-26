@@ -27,7 +27,7 @@ const About = () => {
                 </div>
             </div>
         </div>
-        <div className="p-5  bg-emerald-700 w-max flex justify-between">
+        <div className="p-5  bg-emerald-700 w-max flex padding-x">
               
                 <div className="text-center justify-between font-bold from-stone-950 text-6xl p-3 pt-14 pb-14 w-full  my-3 object-contain">
                     Meet the NaijaCoder Team
