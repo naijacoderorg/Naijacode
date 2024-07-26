@@ -12,8 +12,8 @@ const Navbar = () => {
         <Link href="/" className="flex 
           justify-center items-center min-w-[130px]">
           <Image
-            src="/logo.svg"
-            alt="Car Hub Logo"
+            src="/logo.png"
+            alt="Logo"
             width={118}
             height={18}
             className="object-contain"
