@@ -25,6 +25,15 @@ const Hero = () => {
                     handleClick={handleScroll}
                 />
                 </Link>
+
+                  <Link href="/applications"> 
+                <CustomButton
+                    title="Student application"
+                    containerStyles="bg-primary-blue 
+                    text-white rounded-full mt-10"
+                    handleClick={handleScroll}
+                />
+                </Link>
         </div>
         <div className="hero__image-container">
             <div className="hero__image">
