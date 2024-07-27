@@ -36,7 +36,7 @@ const ContactForm = () => {
             <h3 className="text-center lg:text-3xl text-3xl mt-2 pb-6 ">
             Send us a message using the contact form, or write us at 
            <b> <a href="mailto:contact@naijacoder.ord"> contact@naijacoder.org</a></b>. 
-              contact[at]naijacoder[dot]org
+              
            <p></p>
            We look forward to hearing from you!
           </h3>
