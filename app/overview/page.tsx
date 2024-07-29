@@ -42,24 +42,6 @@ const ProgramOverview = () => {
         </ol>
       </div>
 
-      <div className="hero__title">
-        <h1 className="justify-center text-center items-center">
-          Summer of 2023 Highlights
-        </h1>
-        <h2 className="text-center hero__subtitle font-bold">
-          The NaijaCoder program is a 10-day course that teaches the basics of algorithms and computer programming.
-          The course is designed to be accessible to all students, especially those who are underprivileged.
-        </h2>
-      </div>
-
-      <div className="hero__title">
-        <h1 className="justify-center text-center items-center">
-          Summer of 2022 Highlights
-        </h1>
-        <h2 className="text-center hero__subtitle font-bold">
-          The NaijaCoder program is a 10-day course that teaches the basics of algorithms and computer programming.
-          The course is designed to be accessible to all students, especially those who are underprivileged.
-        </h2>
       </div>
     
   );
