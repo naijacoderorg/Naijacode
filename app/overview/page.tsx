@@ -17,6 +17,7 @@ const ProgramOverview = () => {
           The Abuja camp will take place at the Olumawu School in Abuja from the 12th of August to the 23rd of August.
         </h2>
       </div>
+          </div>
 
 <div className= "hero__image-container" >
       <div className="hero__image">
