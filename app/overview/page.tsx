@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 const ProgramOverview = () => {
   return (
-    <div className="flex ">
+    <div className="flex xl:flex-col flex-col gap-5 relative z-0 max-w-[1440px] mx-auto p-36 ">
       <div className="hero__title ">
         <h1 className="hero__title justify-center text-center items-center">
           Program Overview
