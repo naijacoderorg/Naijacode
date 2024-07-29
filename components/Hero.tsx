@@ -14,8 +14,9 @@ const Hero = () => {
                 The Future of Nigeria Lies in its Youth 
                 </h1>
                 <p className="hero__subtitle">  
-                NaijaCoder is an organization that is dedicated to organizing a free, intensive summer program in Nigeria to teach the basics of algorithms and computer programming to high schoolers and provide resources for students applying to universities abroad. 
-                Programming offers these students, especially those from indigent backgrounds, an opportunity to learn profitable skills and ignite their passions for problem-solving and critical thinking. 
+                NaijaCoder organizes a free, intensive summer program in Nigeria to teach the basics of algorithms and computer programming to high schoolers. The program also provides resources for students applying to universities abroad.
+
+Programming offers these students, especially those from indigent backgrounds, an opportunity to learn profitable skills and ignite their passions for problem-solving and critical thinking.
                 </p>
                 <Link href="/about"> 
                 <CustomButton
