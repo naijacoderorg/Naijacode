@@ -17,7 +17,7 @@ const ProgramOverview = () => {
           The Abuja camp will take place at the Olumawu School in Abuja from the 12th of August to the 23rd of August.
         </h2>
       </div>
-          </div>
+        
 
 <div className= "hero__image-container" >
       <div className="hero__image">
@@ -40,25 +40,7 @@ const ProgramOverview = () => {
         </ol>
     </div>
 
-      <div className="hero__title ">
-        <h1 className="hero__title justify-center text-center items-center">
-          Summer of 2023 Highlights
-        </h1>
-        <h1 className="text-center hero__subtitle font-bold">
-          The NaijaCoder program is a 10-day course that teaches the basics of algorithms and computer programming.
-          The course is designed to be accessible to all students, especially those who are underprivileged.
-        </h1>
-      </div>
-
-      <div className="hero__title ">
-        <h1 className="hero__title justify-center text-center items-center">
-          Summer of 2022 Highlights
-        </h1>
-        <h1 className="text-center hero__subtitle font-bold">
-          The NaijaCoder program is a 10-day course that teaches the basics of algorithms and computer programming.
-          The course is designed to be accessible to all students, especially those who are underprivileged.
-        </h1>
-      </div>
+   
       
   </div>
 
