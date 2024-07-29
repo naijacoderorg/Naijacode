@@ -24,7 +24,7 @@ const ProgramOverview = () => {
         <div className="hero__image">
           <Image src="/picture_overview.png" alt="hero" layout="fill" className="object-contain" />
         </div>
-      </div>
+      
 
       <div className="hero__subtitle text-center">
         <ol>
