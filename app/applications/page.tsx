@@ -1,7 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 
-const ProgramOverview = () => {
+const applications = () => {
   return (
     <div className="flex xl:flex-col flex-col gap-5 relative z-0 max-w-[1440px] mx-auto p-36">
       <div className="hero__title ">
@@ -38,4 +38,4 @@ const ProgramOverview = () => {
   );
 }
 
-export default ProgramOverview;
+export default applications;
