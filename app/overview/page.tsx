@@ -6,12 +6,16 @@ const ProgramOverview = () => {
     <div className="flex xl:flex-col flex-col gap-5 relative z-0 max-w-[1440px] mx-auto p-36">
       <div className="hero__title ">
         <h1 className="hero__title justify-center text-center items-center">
-          Program Overview
+          Summer of 2024 Program Overview
         </h1>
         <h1 className="text-center hero__subtitle font-bold">
           The NaijaCoder program is a 10-day course that teaches the basics of algorithms and computer programming.
           The course is designed to be accessible to all students, especially those who are underprivileged.
         </h1>
+        <h2 className="font-large text-3xl>The Lagos camp is in collaboration with the AirLab of the University of Lagos. 
+          The camp will take place from the 19th of August to the 30th of August at the AI & Robotics Labs in the University of Lagos. 
+          The Abuja camp will take place at the Olumawu School in Abuja from the 12th of August to the 23rd of August.
+        </h2>
       </div>
 
 <div className="hero__image-container">
@@ -19,8 +23,6 @@ const ProgramOverview = () => {
           <Image src="./picture_overview.png" alt="hero" fill className="object-contain" />
       </div>
       </div>
-
-
 
     <div className="hero__subtitle text-center">
         <ol>
@@ -36,6 +38,27 @@ const ProgramOverview = () => {
           <li>Day 10: Review, Recap, Exam</li>
         </ol>
     </div>
+
+      <div className="hero__title ">
+        <h1 className="hero__title justify-center text-center items-center">
+          Summer of 2023 Highlights
+        </h1>
+        <h1 className="text-center hero__subtitle font-bold">
+          The NaijaCoder program is a 10-day course that teaches the basics of algorithms and computer programming.
+          The course is designed to be accessible to all students, especially those who are underprivileged.
+        </h1>
+      </div>
+
+      <div className="hero__title ">
+        <h1 className="hero__title justify-center text-center items-center">
+          Summer of 2022 Highlights
+        </h1>
+        <h1 className="text-center hero__subtitle font-bold">
+          The NaijaCoder program is a 10-day course that teaches the basics of algorithms and computer programming.
+          The course is designed to be accessible to all students, especially those who are underprivileged.
+        </h1>
+      </div>
+      
   </div>
 
 
