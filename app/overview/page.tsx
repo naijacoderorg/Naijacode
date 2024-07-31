@@ -48,7 +48,7 @@ const ProgramOverview = () => {
       
       <div className="hero__title ">
         <h1 className="hero__title justify-center text-center items-center text-4xl mt-8">
-          Highlights from Summer 2022
+        Summer 2022
         </h1>
         <h1 className="mt-2 text-start hero__subtitle font-bold ml-10 mt-8">
           <ol>
