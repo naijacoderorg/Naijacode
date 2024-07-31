@@ -179,8 +179,9 @@ const About = () => {
           <div className="flex flex-col items-center text-center">
             <div className="image__card mb-2">
               <Image src="./Jelani_Nelson.jpg" alt="Jelani Nelson" width={118} height={118} className="object-contain" />
+              <div>Jelani Nelson, Ph.D</div>
             </div>
-            <div className="name__title">Jelani Nelson, Ph.D</div>
+            <div className="name__title">Lead Advisor</div>
             <div className="wikipedia"><a target="_blank" href="https://en.wikipedia.org/wiki/Jelani_Nelson">Wikipedia Link</a></div>
           </div>
         </div>
