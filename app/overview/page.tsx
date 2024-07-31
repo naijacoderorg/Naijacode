@@ -16,7 +16,7 @@ const ProgramOverview = () => {
         </h1>
       </div>
 
-<div className="hero__image-container">
+<div className="">
       <div className="hero__image">
           <Image src="./picture_overview.png" alt="hero" fill className="object-contain" />
       </div>
