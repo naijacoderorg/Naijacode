@@ -121,8 +121,7 @@ const About = () => {
             <div className="image__card mb-2">
               <Image src="./Eric_Mibuari.jpg" alt="Eric Mibuari" width={118} height={118} className="object-contain" />
               <div>Eric Mibuari, Ph.D</div>
-            </div>
-            <div className="name__title">Eric Mibuari</div>
+           
             <div className="linkedin__link">www.linkedin.com</div>
           </div>
 
