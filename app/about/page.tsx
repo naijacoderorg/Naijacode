@@ -6,9 +6,9 @@ const About = () => {
   return (
     <>
       <div className="flex-1 px-20 text-center">
-        <div className="flex-1 pt-36 padding-x hero__subtitle py-9">
+        <div className="flex-1 pt-25 padding-x hero__subtitle py-9">
           <h1 className="hero__title justify-center text-center items-center">About Us</h1>
-          <p>
+          <p className="text-start">
             Youth in Nigeria have little exposure to computer programming.
             This lack of exposure hinders future opportunities. NaijaCoder is
             geared towards using computer science as a tool for a better economic,
@@ -30,7 +30,7 @@ const About = () => {
       </div>
 
       <div className="flex-col gap-5 relative z-0 w-max mx-auto">
-        <div className="text-center justify-between font-bold from-stone-950 text-6xl p-3 pt-14 pb-14 w-full my-3 object-contain">
+        <div className="text-center justify-between font-bold from-stone-950 text-6xl p-3 pt-6 pb-14 w-full my-3 object-contain">
           Meet the NaijaCoder Team
         </div>
 
