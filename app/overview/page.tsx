@@ -22,7 +22,7 @@ const ProgramOverview = () => {
 
 
 
-    <div className="hero__subtitle text-center">
+    <div className="hero__subtitle text-start ml-10">
         <ol>
           <li>Day 1: Introductions and Motivations</li>
           <li>Day 2: Types in Python</li>
@@ -42,8 +42,9 @@ const ProgramOverview = () => {
           Program Overview
         </h1>
         <h1 className="text-center hero__subtitle font-bold">
-          The NaijaCoder program is a 10-day course that teaches the basics of algorithms and computer programming.
-          The course is designed to be accessible to all students, especially those who are underprivileged.
+         The Lagos camp is in collaboration with the <u><a href="http://airol.unilag.edu.ng/"> AirLab </a></u> of the University of Lagos. The camp will take place from the 19th of August to the 30th of 
+          August at the AI & Robotics Labs in the University of Lagos. The Abuja camp will take place at the <u><a href ="http://airol.unilag.edu.ng/">Olumawu School </a></u> in Abuja from the 12th of August to the 
+          23rd of August.
         </h1>
       </div>
       
@@ -51,19 +52,19 @@ const ProgramOverview = () => {
         <h1 className="hero__title justify-center text-center items-center">
           Highlights from Summer 2022
         </h1>
-        <h1 className="text-center hero__subtitle font-bold">
+        <h1 className="text-start hero__subtitle font-bold ml-10">
           <ol>
-  <li>Lists of Lists; Stack ADT</li>
-  <li>Queue, Priority Queue, and Graph ADTs</li>
-  <li>Graph Traversal: BFS, DFS</li>
-  <li>Dictionary, Set, and Multiset ADTs</li>
-  <li>Sorting</li>
-  <li>Efficiency and Asymptotics: Big-O, Big-Omega, Big-Theta</li>
-  <li>Recursion, Searching</li>
-  <li>List Implementation: Array-Based, Linked-Based</li>
-  <li>Stack Implementation: Array-Based, Linked-Based</li>
-  <li>Queue Implementation: Array-Based, Linked-Based</li>
-  <li>General Trees and Binary Trees: Structures and Traversals (pre-order, in-order, post-order)</li>
+  <li>1. Lists of Lists; Stack ADT</li>
+  <li>2.Queue, Priority Queue, and Graph ADTs</li>
+  <li>3.Graph Traversal: BFS, DFS</li>
+  <li>4. Dictionary, Set, and Multiset ADTs</li>
+  <li>5. Sorting</li>
+  <li>6. Efficiency and Asymptotics: Big-O, Big-Omega, Big-Theta</li>
+  <li>7. Recursion, Searching</li>
+  <li>8. List Implementation: Array-Based, Linked-Based</li>
+  <li>9. Stack Implementation: Array-Based, Linked-Based</li>
+  <li>10.Queue Implementation: Array-Based, Linked-Based</li>
+  <li>11.General Trees and Binary Trees: Structures and Traversals (pre-order, in-order, post-order)</li>
 </ol>
         </h1>
       </div>
