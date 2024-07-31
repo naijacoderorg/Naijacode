@@ -5,11 +5,11 @@ const ProgramOverview = () => {
   return (
     <div className="flex xl:flex-col flex-col gap-5 relative z-0 max-w-[1440px] mx-auto p-36 ">
       <div className="hero__title justify-center start items-center  ">
-        <h1 className="text-4xl font-bold p-7">Summer 2025: To be announced.</h1>
-        <h1 className="hero__title justify-center text-start items-center text-4xl p-10">
+        <h1 className="text-4xl font-bold mt-8 p-7">Summer 2025: To be announced.</h1>
+        <h1 className="hero__title justify-center text-center items-center text-4xl p-10">
           Summer 2024 
         </h1>
-        <h1 className="mt-2 text-start hero__subtitle font-bold p-7">
+        <h1 className="mt-2 text-start hero__subtitle font-bold p-4">
           The Lagos camp is in collaboration with the <u><a href="http://airol.unilag.edu.ng/"> AirLab </a></u> of the University of Lagos. The camp will take place from the 19th of August to the 30th of 
           August at the AI & Robotics Labs in the University of Lagos. The Abuja camp will take place at the <u><a href ="http://airol.unilag.edu.ng/">Olumawu School </a></u> in Abuja from the 12th of August to the 
           23rd of August.
