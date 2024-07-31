@@ -38,19 +38,19 @@ const ProgramOverview = () => {
     </div>
 
       <div className="hero__title mt-8 ">
-        <h1 className="hero__title justify-center text-center items-center text-4xl">
+        <h1 className="hero__title justify-center text-center items-center text-4xl mt-5">
          Summer 2023
         </h1>
-        <h1 className="text-start hero__subtitle font-bold">
+        <h1 className="text-start hero__subtitle font-bold mt-1">
         The in-person program ran from August 7 up to August 18, 2023. Location: Lifegate Academy in Abuja.
         </h1>
       </div>
       
       <div className="hero__title ">
-        <h1 className="hero__title justify-center text-center items-center text-4xl">
+        <h1 className="hero__title justify-center text-center items-center text-4xl mt-3">
           Highlights from Summer 2022
         </h1>
-        <h1 className="text-start hero__subtitle font-bold ml-10">
+        <h1 className="mt-2 text-start hero__subtitle font-bold ml-10">
           <ol>
   <li>1. Lists of Lists; Stack ADT</li>
   <li>2.Queue, Priority Queue, and Graph ADTs</li>
