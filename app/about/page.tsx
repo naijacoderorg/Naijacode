@@ -167,7 +167,7 @@ const About = () => {
               <div>Benem Davids, Ph.D.</div>
             </div>
             <div className="name__title">Webmaster</div>
-            <div className="linkedin__link">www.linkedin.com</div>
+            <div className="linkedin__link"><a href="https://www.linkedin.com/in/benemdavids" target="_blank">LinkedIn Link</a></div>
           </div>
         </div>
 
