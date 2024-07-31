@@ -4,13 +4,15 @@ import Image from 'next/image';
 const ProgramOverview = () => {
   return (
     <div className="flex xl:flex-col flex-col gap-5 relative z-0 max-w-[1440px] mx-auto p-36 ">
-      <div className="hero__title ">
+      <div className="hero__title justify-center text-center items-center  ">
+        <h1>Summer 2025: To be announced.</h1>
         <h1 className="hero__title justify-center text-center items-center">
-          Program Overview
+          Summer 2024 Program Overview
         </h1>
-        <h1 className="text-center hero__subtitle font-bold">
-          The NaijaCoder program is a 10-day course that teaches the basics of algorithms and computer programming.
-          The course is designed to be accessible to all students, especially those who are underprivileged.
+        <h1 className="text-start hero__subtitle font-bold">
+          The Lagos camp is in collaboration with the <u><a href="http://airol.unilag.edu.ng/"> AirLab </a></u> of the University of Lagos. The camp will take place from the 19th of August to the 30th of 
+          August at the AI & Robotics Labs in the University of Lagos. The Abuja camp will take place at the <u><a href ="http://airol.unilag.edu.ng/">Olumawu School </a></u> in Abuja from the 12th of August to the 
+          23rd of August.
         </h1>
       </div>
 
@@ -19,8 +21,6 @@ const ProgramOverview = () => {
           <Image src="./picture_overview.png" alt="hero" fill className="object-contain" />
       </div>
       </div>
-
-
 
     <div className="hero__subtitle text-start ml-10">
         <ol>
@@ -39,12 +39,10 @@ const ProgramOverview = () => {
 
       <div className="hero__title ">
         <h1 className="hero__title justify-center text-center items-center">
-          Program Overview
+         Summer 2023
         </h1>
         <h1 className="text-center hero__subtitle font-bold">
-         The Lagos camp is in collaboration with the <u><a href="http://airol.unilag.edu.ng/"> AirLab </a></u> of the University of Lagos. The camp will take place from the 19th of August to the 30th of 
-          August at the AI & Robotics Labs in the University of Lagos. The Abuja camp will take place at the <u><a href ="http://airol.unilag.edu.ng/">Olumawu School </a></u> in Abuja from the 12th of August to the 
-          23rd of August.
+        The in-person program ran from August 7 up to August 18, 2023. Location: Lifegate Academy in Abuja.
         </h1>
       </div>
       
