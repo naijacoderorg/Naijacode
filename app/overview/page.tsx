@@ -41,7 +41,7 @@ const ProgramOverview = () => {
         <h1 className="hero__title justify-center text-center items-center text-4xl mt-5">
          Summer 2023
         </h1>
-        <h1 className="text-start hero__subtitle font-bold mt-1">
+        <h1 className="text-start hero__subtitle font-bold ml-10 mt-1">
         The in-person program ran from August 7 up to August 18, 2023. Location: Lifegate Academy in Abuja.
         </h1>
       </div>
