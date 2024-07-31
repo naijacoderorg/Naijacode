@@ -4,7 +4,7 @@ const applications = () => {
   return (
     <>
       {/* Main Container */}
-      <div className="min-h-screen bg-gray-100 p-10">
+      <div className="min-h-screen  p-10">
         
         {/* Application Link Section */}
         <section className="text-center py-20">
