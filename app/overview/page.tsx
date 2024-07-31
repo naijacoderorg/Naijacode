@@ -22,7 +22,7 @@ const ProgramOverview = () => {
       </div>
       </div>
 
-    <div className="hero__subtitle text-start ml-10">
+    <div className="text-[27px] text-black-100 font-light mt-3 text-start ml-10">
         <ol>
           <li>Day 1: Introductions and Motivations</li>
           <li>Day 2: Types in Python</li>
