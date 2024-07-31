@@ -28,10 +28,10 @@ const About = () => {
             </div>
         </div>
         <div className=" flex-col gap-5 relative z-0 w-max mx-auto  ">
-              
                 <div className="text-center justify-between font-bold from-stone-950 text-6xl p-3 pt-14 pb-14 w-full  my-3 object-contain">
                     Meet the NaijaCoder Team
                 </div>
+            ////
                 <div className="flex justify-center gap-14 p-3 sm:flex-shrink">
                     <div className="flex flex-col items-center text-center">
                         <div className="image__card mb-2">
@@ -57,6 +57,7 @@ const About = () => {
                         <div className="name__title">Chief of Operations</div>
                         <div className="linkedin__link">www.linkedin.com</div>
                     </div>
+                   
                     <div className="flex flex-col items-center text-center">
                         <div className="image__card mb-2">
                             <Image src="./Philip_Abel.jpg" alt="hero" width={118} height={118} className="object-contain" />
@@ -66,6 +67,7 @@ const About = () => {
                         <div className="linkedin__link">www.linkedin.com</div>
                     </div>
                 </div>
+             /////
                 <div className="flex justify-center gap-14 p-3 sm:flex-shrink">
                     <div className="flex flex-col items-center text-center">
                         <div className="image__card mb-2">
@@ -96,6 +98,9 @@ const About = () => {
                         <div className="linkedin__link">www.linkedin.com</div>
                     </div>
                 </div>
+
+            ////
+            
                 <div className="flex justify-center gap-14 p-3 sm:flex-shrink">
                     <div className="flex flex-col items-center text-center">
                         <div className="image__card mb-2">
@@ -130,6 +135,8 @@ const About = () => {
                         <div className="linkedin__link">www.linkedin.com</div>
                     </div>
                 </div>
+            ////
+            
                 <div className="flex justify-center gap-14 p-3 sm:flex-shrink">
                     <div className="flex flex-col items-center text-center">
                         <div className="image__card mb-2">
@@ -156,12 +163,26 @@ const About = () => {
                         <div className="image__card mb-2">
                             <Image src="./Benem_Davids.jpg" alt="hero" width={118} height={118} className="object-contain" />
                             <div>Benem Davids, Ph.D.</div>
-
                             <div className="name__title">Webmaster</div>
                             <div className="linkedin__link">www.linkedin.com</div>
                         </div>
                     </div>
                 </div>
+            <div className="text-center justify-between font-bold from-stone-950 text-6xl p-3 pt-14 pb-14 w-full  my-3 object-contain">
+                    Advisory Team
+                </div>
+            <div className="flex justify-center gap-14 p-3 sm:flex-shrink">
+                    <div className="flex flex-col items-center text-center">
+                        <div className="image__card mb-2">
+                            <Image src="./Joseph_Ekpenyong.jpg" alt="hero" width={118} height={118} className="object-contain" />
+                        </div>
+                        <div className="name__title">Joseph Ekpenyong</div>
+                        <div className="linkedin__link">www.linkedin.com</div>
+                    </div>
+                </div>
+
+
+            
             </div></>
     );
 }
