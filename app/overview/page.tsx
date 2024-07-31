@@ -49,11 +49,22 @@ const ProgramOverview = () => {
       
       <div className="hero__title ">
         <h1 className="hero__title justify-center text-center items-center">
-          Program Overview
+          Highlights from Summer 2022
         </h1>
         <h1 className="text-center hero__subtitle font-bold">
-          The NaijaCoder program is a 10-day course that teaches the basics of algorithms and computer programming.
-          The course is designed to be accessible to all students, especially those who are underprivileged.
+          <ol>
+  <li>Lists of Lists; Stack ADT</li>
+  <li>Queue, Priority Queue, and Graph ADTs</li>
+  <li>Graph Traversal: BFS, DFS</li>
+  <li>Dictionary, Set, and Multiset ADTs</li>
+  <li>Sorting</li>
+  <li>Efficiency and Asymptotics: Big-O, Big-Omega, Big-Theta</li>
+  <li>Recursion, Searching</li>
+  <li>List Implementation: Array-Based, Linked-Based</li>
+  <li>Stack Implementation: Array-Based, Linked-Based</li>
+  <li>Queue Implementation: Array-Based, Linked-Based</li>
+  <li>General Trees and Binary Trees: Structures and Traversals (pre-order, in-order, post-order)</li>
+</ol>
         </h1>
       </div>
   </div>
