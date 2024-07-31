@@ -150,7 +150,7 @@ const About = () => {
               <Image src="./Joseph_Ekpenyong.jpg" alt="Joseph Ekpenyong" width={118} height={118} className="object-contain" />
             </div>
             <div className="name__title">Joseph Ekpenyong</div>
-            <div className="linkedin_link"><a href="https://www.linkedin.com/in/joshuatochukwunwozor" target="_blank">LinkedIn</a></div>
+            <div className="linkedin_link"><a href="https://www.linkedin.com/in/joejekpenyong" target="_blank">LinkedIn</a></div>
           </div>
 
           <div className="flex flex-col items-center text-center">
