@@ -8,6 +8,7 @@ const Footer = () => {
       <div className="flex max-md:flex-col flex-wrap justify-between gap-5 sm:px-16 px-6 py-10">
         <div className="flex flex-col justify-start items-start gap-6">
           <Image src="./logo.png" alt="logo" width={118} height={18} className="object-contain" />
+          <p className="text-base text-gray700">NaijaCoder, Inc. is a registered tax-exempt 501(c)(3). EIN: 88-3205893.</p>
           <p className="text-base text-gray700">© 2024 <br/> All rights reserved.</p>
         </div>
         {/* 3 columns with 3 links under each */}
