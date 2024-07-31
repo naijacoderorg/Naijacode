@@ -21,8 +21,7 @@ Programming offers these students, especially those from indigent backgrounds, a
                 <Link href="/about"> 
                 <CustomButton
                     title=" Learn More "
-                    containerStyles="bg-primary-blue 
-                    text-white rounded-full mt-10 border-4 border-primary-blue"
+                    containerStyles="bg-emerald-500 text-white px-6 py-3 rounded-lg text-lg font-semibold hover:bg-emerald-600"
                     handleClick={handleScroll}
                 />
                 </Link>
