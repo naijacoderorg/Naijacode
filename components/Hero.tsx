@@ -29,8 +29,7 @@ Programming offers these students, especially those from indigent backgrounds, a
                   <Link href="/applications"> 
                 <CustomButton
                     title=" Student Application "
-                    containerStyles="bg-primary-blue border-4 border-primary-blue 
-                    text-white rounded-full mt-10 py-4 "
+                    containerStyles="bg-emerald-500 text-white px-6 py-3 rounded-lg text-lg font-semibold hover:bg-emerald-600 "
                     handleClick={handleScroll}
                 />
                 </Link>
