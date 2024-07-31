@@ -7,7 +7,7 @@ const ProgramOverview = () => {
       <div className="hero__title justify-center start items-center  ">
         <h1 className="text-4xl font-bold p-7">Summer 2025: To be announced.</h1>
         <h1 className="hero__title justify-center text-start items-center text-4xl p-10">
-          Summer 2024 Program Overview
+          Summer 2024 
         </h1>
         <h1 className="mt-4 text-start hero__subtitle font-bold p-7">
           The Lagos camp is in collaboration with the <u><a href="http://airol.unilag.edu.ng/"> AirLab </a></u> of the University of Lagos. The camp will take place from the 19th of August to the 30th of 
