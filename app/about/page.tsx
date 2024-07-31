@@ -41,7 +41,7 @@ const About = () => {
               <div>Daniel Alabi, Ph.D.</div>
             </div>
             <div className="name__title mb-2">President and Lead Instructor</div>
-            <div><a className="website__link" target="_blank" href="http://alabidan.me">Website</a></div>
+            <div><a className="website__link" target="_blank" href="http://alabidan.me">Website Link</a></div>
           </div>
 
           <div className="flex flex-col items-center text-center">
@@ -50,7 +50,7 @@ const About = () => {
               <div>Lekan Afuye, Ph.D.</div>
             </div>
             <div className="name__title">Vice President</div>
-            <div className="linkedin__link"><a href="https://www.linkedin.com/in/olalekan-afuye/" target="_blank">LinkedIn</a></div>
+            <div className="linkedin__link"><a href="https://www.linkedin.com/in/olalekan-afuye/" target="_blank">LinkedIn Link</a></div>
           </div>
 
           <div className="flex flex-col items-center text-center">
@@ -59,7 +59,7 @@ const About = () => {
               <div>Alida Monaco</div>
             </div>
             <div className="name__title">Chief of Operations</div>
-            <div className="linkedin_link"><a href="https://www.linkedin.com/in/alida-monaco-4699a482" target="_blank">LinkedIn</a></div>
+            <div className="linkedin_link"><a href="https://www.linkedin.com/in/alida-monaco-4699a482" target="_blank">LinkedIn Link</a></div>
           </div>
         </div>
 
@@ -70,7 +70,7 @@ const About = () => {
               <div>Philip Abel</div>
             </div>
             <div className="name__title">Secretary</div>
-            <div className="linkedin__link"><a href="https://www.linkedin.com/in/abelphilip/" target="_blank">LinkedIn</a></div>
+            <div className="linkedin__link"><a href="https://www.linkedin.com/in/abelphilip/" target="_blank">LinkedIn Link</a></div>
           </div>
 
           <div className="flex flex-col items-center text-center">
@@ -78,7 +78,7 @@ const About = () => {
               <Image src="./Zaidat_Ibrahim.jpg" alt="Zaidat Ibrahim" width={118} height={118} className="object-contain" />
             </div>
             <div className="name__title">Zaidat Ibrahim</div>
-            <div className="linkedin__link"><a href="https://www.linkedin.com/in/zaidati" target="_blank">LinkedIn</a></div>
+            <div className="linkedin__link"><a href="https://www.linkedin.com/in/zaidati" target="_blank">LinkedIn Link</a></div>
           </div>
 
           <div className="flex flex-col items-center text-center">
@@ -86,7 +86,7 @@ const About = () => {
               <Image src="./Victory_Yinka-Banjo.jpg" alt="Victory Yinka-Banjo" width={118} height={118} className="object-contain" />
             </div>
             <div className="name__title">Victory Yinka-Banjo</div>
-            <div className="linkedin_link"><a href="https://www.linkedin.com/in/victory-yinka-banjo" target="_blank">LinkedIn</a></div>
+            <div className="linkedin_link"><a href="https://www.linkedin.com/in/victory-yinka-banjo" target="_blank">LinkedIn Link</a></div>
           </div>
         </div>
 
@@ -96,7 +96,7 @@ const About = () => {
               <Image src="./Ojima_Abraham.jpg" alt="Ojima Abraham" width={118} height={118} className="object-contain" />
             </div>
             <div className="name__title">Ojima Abraham</div>
-            <div className="linkedin__link"><a href="https://www.linkedin.com/in/ojima-abraham/" target="_blank">LinkedIn</a></div>
+            <div className="linkedin__link"><a href="https://www.linkedin.com/in/ojima-abraham/" target="_blank">LinkedIn Link</a></div>
           </div>
 
           <div className="flex flex-col items-center text-center">
@@ -104,7 +104,7 @@ const About = () => {
               <Image src="./Atinuke_Adegbile.jpg" alt="Atinuke Adegbile" width={118} height={118} className="object-contain" />
             </div>
             <div className="name__title">Atinuke Adegbile</div>
-            <div className="linkedin__link"><a href="https://ng.linkedin.com/in/atinuke-adegbile-267542b7" target="_blank">LinkedIn</a></div>
+            <div className="linkedin__link"><a href="https://ng.linkedin.com/in/atinuke-adegbile-267542b7" target="_blank">LinkedIn Link</a></div>
           </div>
 
           <div className="flex flex-col items-center text-center">
@@ -112,7 +112,7 @@ const About = () => {
               <Image src="./Hamidah_Oderinwale.jpg" alt="Hamidah Oderinwale" width={118} height={118} className="object-contain" />
               <div>Hamidah Oderinwale</div>
             </div>
-            <div className="linkedin__link"><a href="https://ca.linkedin.com/in/hamidaho" target="_blank">LinkedIn</a></div>
+            <div className="linkedin__link"><a href="https://ca.linkedin.com/in/hamidaho" target="_blank">LinkedIn Link</a></div>
           </div>
         </div>
 
@@ -123,7 +123,7 @@ const About = () => {
               <div>Eric Mibuari, Ph.D</div>
               </div>
            
-            <div className="linkedin_link"><a href="https://www.linkedin.com/in/eric-mibuari-bb24044/" target="_blank">LinkedIn</a></div>
+            <div className="linkedin_link"><a href="https://www.linkedin.com/in/eric-mibuari-bb24044/" target="_blank">LinkedIn Link</a></div>
           </div>
 
           <div className="flex flex-col items-center text-center">
@@ -131,7 +131,7 @@ const About = () => {
               <Image src="./Joshua_Nwozor.jpg" alt="Joshua Nwozor" width={118} height={118} className="object-contain" />
               <div>Joshua Nwozor</div>
             </div>
-            <div className="linkedin_link"><a href="https://www.linkedin.com/in/joshuatochukwunwozor" target="_blank">LinkedIn</a></div>
+            <div className="linkedin_link"><a href="https://www.linkedin.com/in/joshuatochukwunwozor" target="_blank">LinkedIn Link</a></div>
           </div>
 
           <div className="flex flex-col items-center text-center">
@@ -140,7 +140,7 @@ const About = () => {
               <div>Akachukwu Obi, Ph.D</div>
             </div>
           
-            <div className="linkedin__link"><a href="https://www.linkedin.com/in/aobi" target="_blank">LinkedIn</a></div>
+            <div className="linkedin__link"><a href="https://www.linkedin.com/in/aobi" target="_blank">LinkedIn Link</a></div>
           </div>
         </div>
 
@@ -150,7 +150,7 @@ const About = () => {
               <Image src="./Joseph_Ekpenyong.jpg" alt="Joseph Ekpenyong" width={118} height={118} className="object-contain" />
             </div>
             <div className="name__title">Joseph Ekpenyong</div>
-            <div className="linkedin_link"><a href="https://www.linkedin.com/in/joejekpenyong" target="_blank">LinkedIn</a></div>
+            <div className="linkedin_link"><a href="https://www.linkedin.com/in/joejekpenyong" target="_blank">LinkedIn Link</a></div>
           </div>
 
           <div className="flex flex-col items-center text-center">
@@ -158,7 +158,7 @@ const About = () => {
               <Image src="./Ekene_Ezeunala.jpg" alt="Ekene Ezeunala" width={118} height={118} className="object-contain" />
             </div>
             <div className="name__title">Ekene Ezeunala</div>
-            <div className="linkedin__link"><a href="https://www.linkedin.com/in/ekene-ezeunala/" target="_blank">LinkedIn</a></div>
+            <div className="linkedin__link"><a href="https://www.linkedin.com/in/ekene-ezeunala/" target="_blank">LinkedIn Link</a></div>
           </div>
 
           <div className="flex flex-col items-center text-center">
@@ -181,7 +181,7 @@ const About = () => {
               <Image src="./Jelani_Nelson.jpg" alt="Jelani Nelson" width={118} height={118} className="object-contain" />
             </div>
             <div className="name__title">Jelani Nelson, Ph.D</div>
-            <div className="wikipedia"><a target="_blank" href="https://en.wikipedia.org/wiki/Jelani_Nelson">Wikipedia</a></div>
+            <div className="wikipedia"><a target="_blank" href="https://en.wikipedia.org/wiki/Jelani_Nelson">Wikipedia Link</a></div>
           </div>
         </div>
       </div>
