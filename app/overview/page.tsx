@@ -6,7 +6,7 @@ const ProgramOverview = () => {
     <div className="flex xl:flex-col flex-col gap-5 relative z-0 max-w-[1440px] mx-auto p-36 ">
       <div className="hero__title justify-center start items-center  ">
         <h1 className="text-4xl font-bold mb-4">Summer 2025: To be announced.</h1>
-        <h1 className="hero__title justify-center text-start items-center">
+        <h1 className="hero__title justify-center text-start items-center text-4xl">
           Summer 2024 Program Overview
         </h1>
         <h1 className="mt-4 text-start hero__subtitle font-bold">
@@ -37,8 +37,8 @@ const ProgramOverview = () => {
         </ol>
     </div>
 
-      <div className="hero__title ">
-        <h1 className="hero__title justify-center text-center items-center">
+      <div className="hero__title mt-8 ">
+        <h1 className="hero__title justify-center text-center items-center text-4xl">
          Summer 2023
         </h1>
         <h1 className="text-start hero__subtitle font-bold">
@@ -47,7 +47,7 @@ const ProgramOverview = () => {
       </div>
       
       <div className="hero__title ">
-        <h1 className="hero__title justify-center text-center items-center">
+        <h1 className="hero__title justify-center text-center items-center text-4xl">
           Highlights from Summer 2022
         </h1>
         <h1 className="text-start hero__subtitle font-bold ml-10">
