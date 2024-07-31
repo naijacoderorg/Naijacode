@@ -41,7 +41,7 @@ const About = () => {
               <div>Daniel Alabi, Ph.D.</div>
             </div>
             <div className="name__title mb-2">Founder and Head Instructor</div>
-            <div className="linkedin__link">www.linkedin.com</div>
+            <div className="https://www.linkedin.com/in/alabidan/">www.linkedin.com</div>
           </div>
 
           <div className="flex flex-col items-center text-center">
@@ -59,7 +59,7 @@ const About = () => {
               <div>Alida Monaco</div>
             </div>
             <div className="name__title">Chief of Operations</div>
-            <div className="linkedin__link">www.linkedin.com</div>
+            <div className="https://www.linkedin.com/in/alida-monaco-4699a482">www.linkedin.com</div>
           </div>
         </div>
 
@@ -86,7 +86,7 @@ const About = () => {
               <Image src="./Victory_Yinka-Banjo.jpg" alt="Victory Yinka-Banjo" width={118} height={118} className="object-contain" />
             </div>
             <div className="name__title">Victory Yinka-Banjo</div>
-            <div className="linkedin__link">www.linkedin.com</div>
+            <div className="https://www.linkedin.com/in/victory-yinka-banjo">www.linkedin.com</div>
           </div>
         </div>
 
@@ -123,7 +123,7 @@ const About = () => {
               <div>Eric Mibuari, Ph.D</div>
               </div>
            
-            <div className="linkedin__link">www.linkedin.com</div>
+            <div className="https://www.linkedin.com/in/eric-mibuari-bb24044/?original_referer=https%3A%2F%2Fnaijacoder.org%2F">www.linkedin.com</div>
           </div>
 
           <div className="flex flex-col items-center text-center">
@@ -131,7 +131,7 @@ const About = () => {
               <Image src="./Joshua_Nwozor.jpg" alt="Joshua Nwozor" width={118} height={118} className="object-contain" />
               <div>Joshua Nwozor</div>
             </div>
-                      <div className="linkedin__link">www.linkedin.com</div>
+                      <div className="https://www.linkedin.com/in/joshuatochukwunwozor">www.linkedin.com</div>
           </div>
 
           <div className="flex flex-col items-center text-center">
@@ -150,7 +150,7 @@ const About = () => {
               <Image src="./Joseph_Ekpenyong.jpg" alt="Joseph Ekpenyong" width={118} height={118} className="object-contain" />
             </div>
             <div className="name__title">Joseph Ekpenyong</div>
-            <div className="linkedin__link">www.linkedin.com</div>
+            <div className="https://www.linkedin.com/in/joejekpenyong">www.linkedin.com</div>
           </div>
 
           <div className="flex flex-col items-center text-center">
@@ -181,7 +181,7 @@ const About = () => {
               <Image src="./Jelani_Nelson.jpg" alt="Jelani Nelson" width={118} height={118} className="object-contain" />
             </div>
             <div className="name__title">Jelani Nelson, Ph.D</div>
-            <div className="linkedin__link">www.linkedin.com</div>
+            <div className="https://en.wikipedia.org/wiki/Jelani_Nelson">Profile</div>
           </div>
         </div>
       </div>
