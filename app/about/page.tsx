@@ -150,10 +150,13 @@ const About = () => {
                         </div>
                         </div>
                     </div>
-                    <div className="flex justify-center gap-14 p-3 sm:flex-shrink">
+            
+                <div className="flex justify-center gap-14 p-3 sm:flex-shrink">
+                    <div className="flex flex-col items-center text-center">
                         <div className="name__title">Joseph Ekpenyong</div>
                         <div className="linkedin__link">www.linkedin.com</div>
                     </div>
+                    
                     <div className="flex flex-col items-center text-center">
                         <div className="image__card mb-2">
                             <Image src="./Ekene_Ezeunala.jpg" alt="hero" width={118} height={118} className="object-contain" />
