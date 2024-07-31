@@ -9,7 +9,7 @@ const ProgramOverview = () => {
         <h1 className="hero__title justify-center text-start items-center text-4xl p-10">
           Summer 2024 
         </h1>
-        <h1 className="mt-4 text-start hero__subtitle font-bold p-7">
+        <h1 className="mt-2 text-start hero__subtitle font-bold p-7">
           The Lagos camp is in collaboration with the <u><a href="http://airol.unilag.edu.ng/"> AirLab </a></u> of the University of Lagos. The camp will take place from the 19th of August to the 30th of 
           August at the AI & Robotics Labs in the University of Lagos. The Abuja camp will take place at the <u><a href ="http://airol.unilag.edu.ng/">Olumawu School </a></u> in Abuja from the 12th of August to the 
           23rd of August.
