@@ -121,6 +121,7 @@ const About = () => {
             <div className="image__card mb-2">
               <Image src="./Eric_Mibuari.jpg" alt="Eric Mibuari" width={118} height={118} className="object-contain" />
               <div>Eric Mibuari, Ph.D</div>
+              </div>
            
             <div className="linkedin__link">www.linkedin.com</div>
           </div>
@@ -130,8 +131,7 @@ const About = () => {
               <Image src="./Joshua_Nwozor.jpg" alt="Joshua Nwozor" width={118} height={118} className="object-contain" />
               <div>Joshua Nwozor</div>
             </div>
-            <div className="name__title">Joshua Nwozor</div>
-            <div className="linkedin__link">www.linkedin.com</div>
+                      <div className="linkedin__link">www.linkedin.com</div>
           </div>
 
           <div className="flex flex-col items-center text-center">
@@ -139,7 +139,7 @@ const About = () => {
               <Image src="./Akachukwu_Obi.jpg" alt="Akachukwu Obi" width={118} height={118} className="object-contain" />
               <div>Akachukwu Obi, Ph.D</div>
             </div>
-            <div className="name__title">Akachukwu Obi</div>
+          
             <div className="linkedin__link">www.linkedin.com</div>
           </div>
         </div>
