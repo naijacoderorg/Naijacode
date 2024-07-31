@@ -41,6 +41,7 @@ const About = () => {
                         <div className="name__title mb-2">Founder and Head Instructor</div>
                         <div className="linkedin__link">www.linkedin.com</div>
                     </div>
+                    
                     <div className="flex flex-col items-center text-center">
                         <div className="image__card mb-2">
                             <Image src="./Lekan_Afuye.jpg" alt="hero" width={118} height={118} className="object-contain" />
@@ -49,6 +50,7 @@ const About = () => {
                         <div className="name__title">Vice President</div>
                         <div className="linkedin__link">www.linkedin.com</div>
                     </div>
+                    
                     <div className="flex flex-col items-center text-center">
                         <div className="image__card mb-2">
                             <Image src="./Alida_Monaco.jpg" alt="hero" width={118} height={118} className="object-contain" />
@@ -58,6 +60,11 @@ const About = () => {
                         <div className="linkedin__link">www.linkedin.com</div>
                     </div>
                    
+                    
+                </div>
+            
+             /////
+                <div className="flex justify-center gap-14 p-3 sm:flex-shrink">
                     <div className="flex flex-col items-center text-center">
                         <div className="image__card mb-2">
                             <Image src="./Philip_Abel.jpg" alt="hero" width={118} height={118} className="object-contain" />
@@ -66,9 +73,7 @@ const About = () => {
                         <div className="name__title">Secretary</div>
                         <div className="linkedin__link">www.linkedin.com</div>
                     </div>
-                </div>
-             /////
-                <div className="flex justify-center gap-14 p-3 sm:flex-shrink">
+                    
                     <div className="flex flex-col items-center text-center">
                         <div className="image__card mb-2">
                             <Image src="./Zaidat_Ibrahim.jpg" alt="hero" width={118} height={118} className="object-contain" />
@@ -83,6 +88,11 @@ const About = () => {
                         <div className="name__title">Victory Yinka-Banjo</div>
                         <div className="linkedin__link">www.linkedin.com</div>
                     </div>
+                </div>
+
+            ////
+            
+                <div className="flex justify-center gap-14 p-3 sm:flex-shrink">
                     <div className="flex flex-col items-center text-center">
                         <div className="image__card mb-2">
                             <Image src="./Ojima_Abraham.jpg" alt="hero" width={118} height={118} className="object-contain" />
@@ -97,11 +107,6 @@ const About = () => {
                         <div className="name__title">Atinuke Adegbile</div>
                         <div className="linkedin__link">www.linkedin.com</div>
                     </div>
-                </div>
-
-            ////
-            
-                <div className="flex justify-center gap-14 p-3 sm:flex-shrink">
                     <div className="flex flex-col items-center text-center">
                         <div className="image__card mb-2">
                             <Image src="./Hamidah_Oderinwale.jpg" alt="hero" width={118} height={118} className="object-contain" />
@@ -110,6 +115,10 @@ const About = () => {
                         <div className="name__title">Hamidah Oderinwale</div>
                         <div className="linkedin__link">www.linkedin.com</div>
                     </div>
+                                    </div>
+            ////
+            
+                <div className="flex justify-center gap-14 p-3 sm:flex-shrink">
                     <div className="flex flex-col items-center text-center">
                         <div className="image__card mb-2">
                             <Image src="./Eric_Mibuari.jpg" alt="hero" width={118} height={118} className="object-contain" />
@@ -134,10 +143,7 @@ const About = () => {
                         <div className="name__title">Akachukwu Obi</div>
                         <div className="linkedin__link">www.linkedin.com</div>
                     </div>
-                </div>
-            ////
-            
-                <div className="flex justify-center gap-14 p-3 sm:flex-shrink">
+
                     <div className="flex flex-col items-center text-center">
                         <div className="image__card mb-2">
                             <Image src="./Joseph_Ekpenyong.jpg" alt="hero" width={118} height={118} className="object-contain" />
