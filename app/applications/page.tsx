@@ -13,7 +13,7 @@ const applications = () => {
             We are excited to offer you the opportunity to apply to our program. Click the link below to start your application.
           </p>
           <Link href="https://docs.google.com/forms/d/e/1FAIpQLSeFyHnAmFwI7QUpAiSD3PaUY-8dPyDl_SuXG9Nt0j6SpILIUw/closedform">
-            <a className="bg-blue-500 text-white px-6 py-3 rounded-lg text-lg font-semibold hover:bg-blue-600">
+            <a className="bg-emerald-500 text-white px-6 py-3 rounded-lg text-lg font-semibold hover:bg-emerald-600">
               Start Your Application
             </a>
           </Link>
