@@ -216,7 +216,7 @@ const About = () => {
             </div>
             <div className="name__title">Webmaster</div>
             <div className="linkedin__link">
-              <h3><u3><a href="https://www.linkedin.com/in/benemdavids" target="_blank">LinkedIn Link</a></u3></h3>
+              <h3><u><a href="https://www.linkedin.com/in/benemdavids" target="_blank">LinkedIn Link</a></u></h3>
             </div>
           </div>
         </div>
