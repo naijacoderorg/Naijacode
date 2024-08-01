@@ -55,7 +55,7 @@ const About = () => {
             </div>
             <div className="name__title">Vice President</div>
             <div className="linkedin__link">
-              <h3><u> 
+              <h3><u>
               <a href="https://www.linkedin.com/in/olalekan-afuye/" target="_blank">LinkedIn Link</a>
                 </u></h3>
             </div>
@@ -157,7 +157,9 @@ const About = () => {
               <div>Eric Mibuari, Ph.D</div>
               </div>
            
-            <div className="linkedin_link"><a href="https://www.linkedin.com/in/eric-mibuari-bb24044/" target="_blank">LinkedIn Link</a></div>
+            <div className="linkedin_link">
+              <h3><u><a href="https://www.linkedin.com/in/eric-mibuari-bb24044/" target="_blank">LinkedIn Link</a></u></h3>
+            </div>
           </div>
 
           <div className="flex flex-col items-center text-center">
@@ -165,7 +167,11 @@ const About = () => {
               <Image src="./Joshua_Nwozor.jpg" alt="Joshua Nwozor" width={118} height={118} className="object-contain" />
               <div>Joshua Nwozor</div>
             </div>
-            <div className="linkedin_link"><a href="https://www.linkedin.com/in/joshuatochukwunwozor" target="_blank">LinkedIn Link</a></div>
+            <div className="linkedin_link">
+              <h3><u>
+              <a href="https://www.linkedin.com/in/joshuatochukwunwozor" target="_blank">LinkedIn Link</a>
+              </u></h3>
+              </div>
           </div>
 
           <div className="flex flex-col items-center text-center">
@@ -174,7 +180,10 @@ const About = () => {
               <div>Akachukwu Obi, Ph.D</div>
             </div>
           
-            <div className="linkedin__link"><a href="https://www.linkedin.com/in/aobi" target="_blank">LinkedIn Link</a></div>
+            <div className="linkedin__link">
+              <h3><u>
+              <a href="https://www.linkedin.com/in/aobi" target="_blank">LinkedIn Link</a>
+              </u></h3></div>
           </div>
         </div>
 
@@ -184,7 +193,9 @@ const About = () => {
               <Image src="./Joseph_Ekpenyong.jpg" alt="Joseph Ekpenyong" width={118} height={118} className="object-contain" />
             </div>
             <div className="name__title">Joseph Ekpenyong</div>
-            <div className="linkedin_link"><a href="https://www.linkedin.com/in/joejekpenyong" target="_blank">LinkedIn Link</a></div>
+            <div className="linkedin_link">
+              <h3><u><a href="https://www.linkedin.com/in/joejekpenyong" target="_blank">LinkedIn Link</a></u></h3>
+            </div>
           </div>
 
           <div className="flex flex-col items-center text-center">
@@ -192,7 +203,10 @@ const About = () => {
               <Image src="./Ekene_Ezeunala.jpg" alt="Ekene Ezeunala" width={118} height={118} className="object-contain" />
             </div>
             <div className="name__title">Ekene Ezeunala</div>
-            <div className="linkedin__link"><a href="https://www.linkedin.com/in/ekene-ezeunala/" target="_blank">LinkedIn Link</a></div>
+            <div className="linkedin__link">
+              <h3><u>
+              <a href="https://www.linkedin.com/in/ekene-ezeunala/" target="_blank">LinkedIn Link</a>
+              </u></h3></div>
           </div>
 
           <div className="flex flex-col items-center text-center">
@@ -201,7 +215,9 @@ const About = () => {
               <div>Benem Davids, Ph.D.</div>
             </div>
             <div className="name__title">Webmaster</div>
-            <div className="linkedin__link"><a href="https://www.linkedin.com/in/benemdavids" target="_blank">LinkedIn Link</a></div>
+            <div className="linkedin__link">
+              <h3><u3><a href="https://www.linkedin.com/in/benemdavids" target="_blank">LinkedIn Link</a></u3></h3>
+            </div>
           </div>
         </div>
 
