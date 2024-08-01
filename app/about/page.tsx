@@ -41,7 +41,7 @@ const About = () => {
               <div>Daniel Alabi, Ph.D.</div>
             </div>
             <div className="name__title mb-2">President and Lead Instructor</div>
-            <div><u><a className="website__link" target="_blank" href="http://alabidan.me">Website Link</a></u></div>
+            <div><a className="website__link" target="_blank" href="http://alabidan.me">Website Link</a></div>
           </div>
 
           <div className="flex flex-col items-center text-center">
@@ -50,7 +50,7 @@ const About = () => {
               <div>Lekan Afuye, Ph.D.</div>
             </div>
             <div className="name__title">Vice President</div>
-            <div className="linkedin__link"><u><a href="https://www.linkedin.com/in/olalekan-afuye/" target="_blank">LinkedIn Link</a></u></div>
+            <div className="linkedin__link"><a href="https://www.linkedin.com/in/olalekan-afuye/" target="_blank">LinkedIn Link</a></div>
           </div>
 
           <div className="flex flex-col items-center text-center">
@@ -59,7 +59,7 @@ const About = () => {
               <div>Alida Monaco</div>
             </div>
             <div className="name__title">Chief of Operations</div>
-            <div className="linkedin_link"><u><a href="https://www.linkedin.com/in/alida-monaco-4699a482" target="_blank">LinkedIn Link</a><u/></div>
+            <div className="linkedin_link"><a href="https://www.linkedin.com/in/alida-monaco-4699a482" target="_blank">LinkedIn Link</a></div>
           </div>
         </div>
 
