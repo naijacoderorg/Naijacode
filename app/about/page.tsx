@@ -94,7 +94,11 @@ const About = () => {
               <Image src="./Zaidat_Ibrahim.jpg" alt="Zaidat Ibrahim" width={118} height={118} className="object-contain" />
             </div>
             <div className="name__title">Zaidat Ibrahim</div>
-            <div className="linkedin__link"><a href="https://www.linkedin.com/in/zaidati" target="_blank">LinkedIn Link</a></div>
+            <div className="linkedin__link">
+               <h3><u>
+              <a href="https://www.linkedin.com/in/zaidati" target="_blank">LinkedIn Link</a>
+               </u></h3>
+               </div>
           </div>
 
           <div className="flex flex-col items-center text-center">
@@ -102,7 +106,11 @@ const About = () => {
               <Image src="./Victory_Yinka-Banjo.jpg" alt="Victory Yinka-Banjo" width={118} height={118} className="object-contain" />
             </div>
             <div className="name__title">Victory Yinka-Banjo</div>
-            <div className="linkedin_link"><a href="https://www.linkedin.com/in/victory-yinka-banjo" target="_blank">LinkedIn Link</a></div>
+            <div className="linkedin_link">
+               <h3><u>
+              <a href="https://www.linkedin.com/in/victory-yinka-banjo" target="_blank">LinkedIn Link</a>
+               </u></h3>
+               </div>
           </div>
         </div>
 
@@ -112,7 +120,11 @@ const About = () => {
               <Image src="./Ojima_Abraham.jpg" alt="Ojima Abraham" width={118} height={118} className="object-contain" />
             </div>
             <div className="name__title">Ojima Abraham</div>
-            <div className="linkedin__link"><a href="https://www.linkedin.com/in/ojima-abraham/" target="_blank">LinkedIn Link</a></div>
+            <div className="linkedin__link">
+              <h3><u>
+              <a href="https://www.linkedin.com/in/ojima-abraham/" target="_blank">LinkedIn Link</a>
+              </u></h3>
+              </div>
           </div>
 
           <div className="flex flex-col items-center text-center">
@@ -120,7 +132,11 @@ const About = () => {
               <Image src="./Atinuke_Adegbile.jpg" alt="Atinuke Adegbile" width={118} height={118} className="object-contain" />
             </div>
             <div className="name__title">Atinuke Adegbile</div>
-            <div className="linkedin__link"><a href="https://ng.linkedin.com/in/atinuke-adegbile-267542b7" target="_blank">LinkedIn Link</a></div>
+            <div className="linkedin__link">
+              <h3><u>
+              <a href="https://ng.linkedin.com/in/atinuke-adegbile-267542b7" target="_blank">LinkedIn Link</a>
+              </u></h3>
+              </div>
           </div>
 
           <div className="flex flex-col items-center text-center">
@@ -128,7 +144,9 @@ const About = () => {
               <Image src="./Hamidah_Oderinwale.jpg" alt="Hamidah Oderinwale" width={118} height={118} className="object-contain" />
               <div>Hamidah Oderinwale</div>
             </div>
-            <div className="linkedin__link"><a href="https://ca.linkedin.com/in/hamidaho" target="_blank">LinkedIn Link</a></div>
+            <div className="linkedin__link">
+              <h3><u><a href="https://ca.linkedin.com/in/hamidaho" target="_blank">LinkedIn Link</a>
+              </u></h3></div>
           </div>
         </div>
 
