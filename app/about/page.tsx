@@ -232,7 +232,9 @@ const About = () => {
               <div>Jelani Nelson, Ph.D</div>
             </div>
             <div className="name__title">Lead Advisor</div>
-            <div className="wikipedia"><a target="_blank" href="https://en.wikipedia.org/wiki/Jelani_Nelson">Wikipedia Link</a></div>
+            <div className="wikipedia">
+              <h3><u><a target="_blank" href="https://en.wikipedia.org/wiki/Jelani_Nelson">Wikipedia Link</a>
+              </u></h3></div>
           </div>
         </div>
       </div>
