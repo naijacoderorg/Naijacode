@@ -54,7 +54,11 @@ const About = () => {
               <div>Lekan Afuye, Ph.D.</div>
             </div>
             <div className="name__title">Vice President</div>
-            <div className="linkedin__link"><a href="https://www.linkedin.com/in/olalekan-afuye/" target="_blank">LinkedIn Link</a></div>
+            <div className="linkedin__link">
+              <h3><u> 
+              <a href="https://www.linkedin.com/in/olalekan-afuye/" target="_blank">LinkedIn Link</a>
+                </u></h3>
+            </div>
           </div>
 
           <div className="flex flex-col items-center text-center">
@@ -63,7 +67,11 @@ const About = () => {
               <div>Alida Monaco</div>
             </div>
             <div className="name__title">Chief of Operations</div>
-            <div className="linkedin_link"><a href="https://www.linkedin.com/in/alida-monaco-4699a482" target="_blank">LinkedIn Link</a></div>
+            <div className="linkedin_link">
+                <h3><u>
+          <a href="https://www.linkedin.com/in/alida-monaco-4699a482" target="_blank">LinkedIn Link</a>
+          </u></h3>
+    </div>
           </div>
         </div>
 
@@ -74,7 +82,11 @@ const About = () => {
               <div>Philip Abel</div>
             </div>
             <div className="name__title">Secretary</div>
-            <div className="linkedin__link"><a href="https://www.linkedin.com/in/abelphilip/" target="_blank">LinkedIn Link</a></div>
+            <div className="linkedin__link">
+               <h3><u>
+                 <a href="https://www.linkedin.com/in/abelphilip/" target="_blank">LinkedIn Link</a>
+               </u></h3>
+            </div>
           </div>
 
           <div className="flex flex-col items-center text-center">
