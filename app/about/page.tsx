@@ -41,7 +41,11 @@ const About = () => {
               <div>Daniel Alabi, Ph.D.</div>
             </div>
             <div className="name__title mb-2">President and Lead Instructor</div>
-            <div><a className="website__link" target="_blank" href="http://alabidan.me">Website Link</a></div>
+            <div>
+              <h3><u>  
+              <a className="website__link" target="_blank" href="http://alabidan.me">Website Link</a>
+              </u></h3>
+              </div>
           </div>
 
           <div className="flex flex-col items-center text-center">
