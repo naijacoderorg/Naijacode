@@ -6,7 +6,7 @@ const About = () => {
   return (
     <>
       <div className="flex  px-20 text-center">
-        <div className="flex-1 pt-36 padding-x hero__subtitle py-9 rounded-xl border-2 border-rose-500">
+        <div className="flex-1 pt-36 padding-x mx-7 hero__subtitle py-9 rounded-xl border-2 border-rose-500">
           <h1 className="hero__title justify-center text-center items-center text-3xl md:text-6xl">About Us</h1>
           <p className="pt-5 w-auto text-start text-sm sm:text-xl ">
             Youth in Nigeria have little exposure to computer programming.
