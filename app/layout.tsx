@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 import "./globals.css";
-import { Footer, Navbar, grid } from "@/components";
+import { Footer, Navbar } from "@/components";
 
 export const metadata: Metadata = {
   title: "NaijaCoder",
