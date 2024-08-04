@@ -1,5 +1,5 @@
 import React from 'react';
-import Grid from '../components/Grid';
+import grid from "@/components";
 
 const GetInvolved = () => {
   return (
