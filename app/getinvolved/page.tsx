@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Gridz from '@/components';
+import {Gridz} from '@/components';
 
 const GetInvolved = () => {
   return (
