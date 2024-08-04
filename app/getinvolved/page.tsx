@@ -1,4 +1,5 @@
 import React from 'react';
+import Grid from '../components/Grid';
 
 const GetInvolved = () => {
   return (
@@ -22,6 +23,10 @@ const GetInvolved = () => {
             />
             <img alt="" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1" />
           </form>
+          
+           <div className="flex justify-center items-center min-h-screen bg-gray-100">
+      <Grid />
+    </div>
         </div>
       </div>
     </div>
