@@ -25,7 +25,7 @@ const GetInvolved = () => {
           </form>
           
            <div className="flex justify-center items-center min-h-screen bg-gray-100">
-      <Grid />
+      <grid />
     </div>
         </div>
       </div>
