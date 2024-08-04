@@ -1,6 +1,6 @@
 import React from 'react';
 
-import grid from './CustomButton'
+import Grid from '@components'
 
 const GetInvolved = () => {
   return (
@@ -26,7 +26,7 @@ const GetInvolved = () => {
           </form>
           
            <div className="flex justify-center items-center min-h-screen bg-gray-100">
-      <grid />
+      <Gridz />
     </div>
         </div>
       </div>
