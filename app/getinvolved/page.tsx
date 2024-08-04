@@ -1,5 +1,6 @@
 import React from 'react';
-import {grid} from "@/components";
+
+import grid from './CustomButton'
 
 const GetInvolved = () => {
   return (
