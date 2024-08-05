@@ -11,7 +11,7 @@ const ProgramOverview = () => {
         </h1>
         <h1 className="mt-2 text-start hero__subtitle font-bold p-4">
           The Lagos camp is in collaboration with the <u><a href="http://airol.unilag.edu.ng/"> AirLab </a></u> of the University of Lagos. The camp will take place from the 19th of August to the 30th of 
-          August at the AI & Robotics Labs in the University of Lagos. The Abuja camp will take place at the <u><a href ="http://airol.unilag.edu.ng/">Olumawu School </a></u> in Abuja from the 12th of August to the 
+          August at the AI & Robotics Labs in the University of Lagos. The Abuja camp will take place at the <u><a href ="https://olumawu.org.ng/">Olumawu School </a></u> in Abuja from the 12th of August to the 
           23rd of August.
         </h1>
       </div>
