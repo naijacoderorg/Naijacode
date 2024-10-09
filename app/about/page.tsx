@@ -11,7 +11,7 @@ const About = () => {
           <p className="text-start">
             Youth in Nigeria have little exposure to computer programming.
             This lack of exposure hinders future opportunities. NaijaCoder is
-            geared towards using computer science as a tool for a better economic,
+            geared towards using computer science and engineering as a tool for a better economic,
             social, and academic life for youth. Given the diversity of the
             occupations and interests of the board members, we can provide
             mentorship on various career options — both of the technical and
