@@ -30,7 +30,6 @@ const applications = () => {
             <li><strong>Relevance:</strong> Highlight experiences and skills that are directly relevant to the program.</li>
             <li><strong>Personal Touch:</strong> Share personal stories or experiences that demonstrate your passion and commitment.</li>
             <li><strong>Attention to Detail:</strong> Ensure that your application is free from errors and follows all guidelines provided.</li>
-            <li><strong>Strong Recommendations:</strong> Secure recommendations from individuals who can speak to your strengths and potential.</li>
           </ul>
           <p className="text-lg">
             We encourage you to put your best foot forward and showcase why you would be a great fit for our program. Good luck!
