@@ -221,6 +221,20 @@ const About = () => {
           </div>
         </div>
 
+        <div className="flex justify-center gap-14 p-3 sm:flex-shrink">
+          <div className="flex flex-col items-center text-center">
+            <div className="image__card mb-2">
+              <Image src="./tobi_alabi.jpg" alt="Oluwatobi Alabi" width={118} height={118} className="object-contain" />
+              <div>Oluwatobi Alabi</div>
+            </div>
+            <div className="name__title">Social Media Manager</div>
+            <div className="linkedin__link">
+              <h3><u><a target="_blank" href="https://www.linkedin.com/in/oluwatobi-alabi">LinkedIn</a>
+              </u></h3>
+            </div>
+          </div>
+        </div>
+
         <div className="text-center justify-between font-bold from-stone-950 text-6xl p-3 pt-14 pb-14 w-full my-3 object-contain">
           Advisory Team
         </div>
