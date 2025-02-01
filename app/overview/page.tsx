@@ -5,7 +5,18 @@ const ProgramOverview = () => {
   return (
     <div className="flex xl:flex-col flex-col gap-5 relative z-0 max-w-[1440px] mx-auto p-36 ">
       <div className="hero__title justify-center start items-center  ">
-        <h1 className="text-4xl font-bold mt-8 p-7">Summer 2025: To be announced.</h1>
+        
+        <h1 className="hero__title justify-center text-center items-center text-4xl p-10">
+          Summer 2025
+        </h1>
+        <h1 className="mt-2 text-start hero__subtitle font-bold p-4">
+          <ol>
+          <li>Abuja camp (tentative) dates: August 4 -- August 15</li>
+          <li>Lagos camp (tentative) dates: July 21 -- August 1</li>
+          <li>Kano camp (tentative) dates: April 10 -- April 21</li>
+        </ol>
+        </h1>
+
         <h1 className="hero__title justify-center text-center items-center text-4xl p-10">
           Summer 2024 
         </h1>
