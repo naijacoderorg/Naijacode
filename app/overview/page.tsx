@@ -6,8 +6,15 @@ const ProgramOverview = () => {
     <div className="max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8 py-8 lg:py-12">
       {/* 2025 Section */}
       <div className="space-y-8">
-        <div className="text-center">
-          <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold">Summer 2025: To be announced.</h1>
+        <div className="space-y-4">
+          <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-center">Summer 2025</h1>
+          <div className="text-base md:text-lg space-y-2">
+            <ol className="list-decimal list-inside space-y-2">
+              <li>Abuja camp (tentative) dates: August 4 -- August 15</li>
+              <li>Lagos camp (tentative) dates: July 21 -- August 1</li>
+              <li>Kano camp (tentative) dates: April 10 -- April 21</li>
+            </ol>
+          </div>
         </div>
 
         {/* 2024 Section */}
