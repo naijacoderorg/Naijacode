@@ -5,7 +5,7 @@ const About = () => {
   return (
     <>
       <div className="px-4 md:px-20 text-center">
-        <div className="pt-8 md:pt-36 max-w-screen-md mx-auto justify-between hero__subtitle py-9 rounded-xl border-2 border-rose-500">
+        <div className="pt-8 md:pt-36 max-w-screen-md mx-auto justify-between hero__subtitle py-9">
           <h1 className="hero__title text-center text-3xl md:text-6xl">About Us!</h1>
           <p className="pt-5 px-4 text-start text-sm sm:text-xl">
             Youth in Nigeria have little exposure to computer programming.
@@ -30,106 +30,118 @@ const About = () => {
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 md:gap-14">
           {[
             {
-              name: "Daniel Alabi, Ph.D.",
+              name: "Daniel Alabi",
               title: "President and Lead Instructor",
+              image: "/Daniel_Alabi.jpg",
               link: "http://alabidan.me",
-              linkType: "Website Link"
+              linkType: "Website Link",
+              suffix: ", Ph.D."
             },
             {
-              name: "Lekan Afuye, Ph.D.",
+              name: "Lekan Afuye",
+              image: "/Lekan_Afuye.jpg",
               title: "Vice President",
               link: "https://www.linkedin.com/in/olalekan-afuye/",
-              linkType: "LinkedIn Link"
+              linkType: "LinkedIn Link",
+              suffix: ", Ph.D."
             },
             {
               name: "Alida Monaco",
+              image: "/Alida_Monaco.jpg",
               title: "Chief of Operations",
               link: "https://www.linkedin.com/in/alida-monaco-4699a482",
               linkType: "LinkedIn Link"
             },
             {
               name: "Philip Abel",
+              image: "/Philip_Abel.jpg",
               title: "Secretary",
               link: "https://www.linkedin.com/in/abelphilip/",
               linkType: "LinkedIn Link"
             },
             {
               name: "Zaidat Ibrahim",
-              title: "",
+              image: "/Zaidat_Ibrahim.jpg",
               link: "https://www.linkedin.com/in/zaidati",
               linkType: "LinkedIn Link"
             },
             {
               name: "Victory Yinka-Banjo",
-              title: "",
+              image: "/Victory_Yinka-Banjo.jpg",
               link: "https://www.linkedin.com/in/victory-yinka-banjo",
               linkType: "LinkedIn Link"
             },
             {
               name: "Ojima Abraham",
-              title: "",
+              image: "/Ojima_Abraham.jpg",
               link: "https://www.linkedin.com/in/ojima-abraham/",
               linkType: "LinkedIn Link"
             },
             {
               name: "Atinuke Adegbile",
-              title: "",
+              image: "/Atinuke_Adegbile.jpg",
               link: "https://ng.linkedin.com/in/atinuke-adegbile-267542b7",
               linkType: "LinkedIn Link"
             },
             {
               name: "Hamidah Oderinwale",
-              title: "",
+              image: "/Hamidah_Oderinwale.jpg",
               link: "https://ca.linkedin.com/in/hamidaho",
               linkType: "LinkedIn Link"
             },
             {
-              name: "Eric Mibuari, Ph.D",
-              title: "",
+              name: "Eric Mibuari",
+              image: "/Eric_Mibuari.jpg",
               link: "https://www.linkedin.com/in/eric-mibuari-bb24044/",
-              linkType: "LinkedIn Link"
+              linkType: "LinkedIn Link",
+              suffix: ", Ph.D"
             },
             {
               name: "Joshua Nwozor",
-              title: "",
+              image: "/Joshua_Nwozor.jpg",
               link: "https://www.linkedin.com/in/joshuatochukwunwozor",
               linkType: "LinkedIn Link"
             },
             {
-              name: "Akachukwu Obi, Ph.D",
-              title: "",
+              name: "Akachukwu Obi",
+              image: "/Akachukwu_Obi.jpg",
               link: "https://www.linkedin.com/in/aobi",
-              linkType: "LinkedIn Link"
+              linkType: "LinkedIn Link",
+              suffix: ", Ph.D"
             },
             {
               name: "Joseph Ekpenyong",
-              title: "",
+              image: "/Joseph_Ekpenyong.jpg",
               link: "https://www.linkedin.com/in/joejekpenyong",
               linkType: "LinkedIn Link"
             },
             {
               name: "Ekene Ezeunala",
-              title: "",
+              image: "/Ekene_Ezeunala.jpg",
               link: "https://www.linkedin.com/in/ekene-ezeunala/",
               linkType: "LinkedIn Link"
             },
             {
-              name: "Benem Davids, Ph.D.",
+              name: "Benem Davids",
+              image: "/Benem_Davids.jpg",
               title: "Webmaster",
               link: "https://www.linkedin.com/in/benemdavids",
-              linkType: "LinkedIn Link"
+              linkType: "LinkedIn Link",
+              suffix: ", Ph.D."
             }
           ].map((member, index) => (
             <div key={index} className="flex flex-col items-center text-center p-4">
               <div className="image__card mb-2">
                 <Image
-                  src={`/${member.name.split(',')[0].replace(' ', '_')}.jpg`}
+                  src={member.image}
                   alt={member.name}
                   width={118}
                   height={118}
                   className="object-contain"
                 />
-                <div className="text-sm sm:text-base mt-2">{member.name}</div>
+                <div className="text-sm sm:text-base mt-2">
+                  {member.name}{member.suffix || ''}
+                </div>
               </div>
               {member.title && <div className="name__title mb-2">{member.title}</div>}
               <div>
