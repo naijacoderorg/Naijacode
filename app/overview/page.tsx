@@ -20,13 +20,13 @@ const ProgramOverview = () => {
         {/* 2024 Section */}
         <div className="space-y-4">
           <h1 className="text-2xl md:text-3xl lg:text-4xl text-center">Summer 2024</h1>
-          <p className="text-base md:text-lg font-bold">
-            The Lagos camp is in collaboration with the <u><a href="http://airol.unilag.edu.ng/" className="hover:text-blue-600">AirLab</a></u> of 
-            the University of Lagos. The camp will take place from the 19th of August to the 30th of August at the 
-            AI & Robotics Labs in the University of Lagos. The Abuja camp will take place at the 
-            <u><a href="http://airol.unilag.edu.ng/" className="hover:text-blue-600"> Olumawu School </a></u> 
-            in Abuja from the 12th of August to the 23rd of August.
-          </p>
+      <p className="text-base md:text-lg font-bold">
+    The Lagos camp was in collaboration with the <u><a href="http://airol.unilag.edu.ng/" className="hover:text-blue-600">AirLab</a></u> of 
+    the University of Lagos. The camp took place from the 19th of August to the 30th of August at the 
+    AI & Robotics Labs in the University of Lagos. The Abuja camp took place at the 
+    <u><a href="http://airol.unilag.edu.ng/" className="hover:text-blue-600"> Olumawu School </a></u> 
+    in Abuja from the 12th of August to the 23rd of August.
+      </p>
         </div>
 
         {/* Image Section */}
