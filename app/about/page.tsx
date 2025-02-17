@@ -32,14 +32,14 @@ const About = () => {
             {
               name: "Daniel Alabi",
               title: "President and Lead Instructor",
-              image: "public/Daniel_Alabi.jpg",
+              image: "./Daniel_Alabi.jpg",
               link: "http://alabidan.me",
               linkType: "Website Link",
               suffix: ", Ph.D."
             },
             {
               name: "Lekan Afuye",
-              image: "public/Lekan_Afuye.jpg",
+              image: "./Lekan_Afuye.jpg",
               title: "Vice President",
               link: "https://www.linkedin.com/in/olalekan-afuye/",
               linkType: "LinkedIn Link",
@@ -47,83 +47,83 @@ const About = () => {
             },
             {
               name: "Alida Monaco",
-              image: "public/Alida_Monaco.jpg",
+              image: "./Alida_Monaco.jpg",
               title: "Chief of Operations",
               link: "https://www.linkedin.com/in/alida-monaco-4699a482",
               linkType: "LinkedIn Link"
             },
             {
               name: "Philip Abel",
-              image: "public/Philip_Abel.jpg",
+              image: "./Philip_Abel.jpg",
               title: "Secretary",
               link: "https://www.linkedin.com/in/abelphilip/",
               linkType: "LinkedIn Link"
             },
             {
               name: "Zaidat Ibrahim",
-              image: "public/Zaidat_Ibrahim.jpg",
+              image: "./Zaidat_Ibrahim.jpg",
               link: "https://www.linkedin.com/in/zaidati",
               linkType: "LinkedIn Link"
             },
             {
               name: "Victory Yinka-Banjo",
-              image: "public/Victory_Yinka-Banjo.jpg",
+              image: "./Victory_Yinka-Banjo.jpg",
               link: "https://www.linkedin.com/in/victory-yinka-banjo",
               linkType: "LinkedIn Link"
             },
             {
               name: "Ojima Abraham",
-              image: "public/Ojima_Abraham.jpg",
+              image: "./Ojima_Abraham.jpg",
               link: "https://www.linkedin.com/in/ojima-abraham/",
               linkType: "LinkedIn Link"
             },
             {
               name: "Atinuke Adegbile",
-              image: "public/Atinuke_Adegbile.jpg",
+              image: "./Atinuke_Adegbile.jpg",
               link: "https://ng.linkedin.com/in/atinuke-adegbile-267542b7",
               linkType: "LinkedIn Link"
             },
             {
               name: "Hamidah Oderinwale",
-              image: "public/Hamidah_Oderinwale.jpg",
+              image: "./Hamidah_Oderinwale.jpg",
               link: "https://ca.linkedin.com/in/hamidaho",
               linkType: "LinkedIn Link"
             },
             {
               name: "Eric Mibuari",
-              image: "public/Eric_Mibuari.jpg",
+              image: "./Eric_Mibuari.jpg",
               link: "https://www.linkedin.com/in/eric-mibuari-bb24044/",
               linkType: "LinkedIn Link",
               suffix: ", Ph.D"
             },
             {
               name: "Joshua Nwozor",
-              image: "public/Joshua_Nwozor.jpg",
+              image: "./Joshua_Nwozor.jpg",
               link: "https://www.linkedin.com/in/joshuatochukwunwozor",
               linkType: "LinkedIn Link"
             },
             {
               name: "Akachukwu Obi",
-              image: "public/Akachukwu_Obi.jpg",
+              image: "./Akachukwu_Obi.jpg",
               link: "https://www.linkedin.com/in/aobi",
               linkType: "LinkedIn Link",
               suffix: ", Ph.D"
             },
             {
               name: "Joseph Ekpenyong",
-              image: "public/Joseph_Ekpenyong.jpg",
+              image: "./Joseph_Ekpenyong.jpg",
               link: "https://www.linkedin.com/in/joejekpenyong",
               linkType: "LinkedIn Link"
             },
             {
               name: "Ekene Ezeunala",
-              image: "public/Ekene_Ezeunala.jpg",
+              image: "./Ekene_Ezeunala.jpg",
               link: "https://www.linkedin.com/in/ekene-ezeunala/",
               linkType: "LinkedIn Link"
             },
             {
               name: "Benem Davids",
-              image: "public/Benem_Davids.jpg",
+              image: "./Benem_Davids.jpg",
               title: "Webmaster",
               link: "https://www.linkedin.com/in/benemdavids",
               linkType: "LinkedIn Link",
@@ -161,7 +161,7 @@ const About = () => {
           <div className="flex flex-col items-center text-center">
             <div className="image__card mb-2">
               <Image
-                src="public/Jelani_Nelson.jpg"
+                src="./Jelani_Nelson.jpg"
                 alt="Jelani Nelson"
                 width={118}
                 height={118}
