@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 const ProgramOverview = () => {
   return (
-    <div className="max-w-[1440px] mx-auto px-4 sm:px-6 py-12 lg:px-8 py-8 lg:py-24">
+    <div className="max-w-[1440px] mx-auto px-4 sm:px-6 md:py-12 lg:px-8 py-8 lg:py-24 pt-16 sm:pt-20 md:pt-24">
       <div className="space-y-8">
         {/* 2025 Section */}
         <div className="space-y-4">
