@@ -1,6 +1,6 @@
 import React from 'react';
 
-import {Gridz} from '@/components';
+
 
 const GetInvolved = () => {
   return (
@@ -26,7 +26,7 @@ const GetInvolved = () => {
           </form>
           
            <div className="flex justify-center items-center min-h-screen bg-gray-100">
-      <Gridz />
+     
     </div>
         </div>
       </div>
