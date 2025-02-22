@@ -10,7 +10,7 @@ const About = () => {
           <p className="pt-5 px-4 text-start text-sm sm:text-xl">
             Youth in Nigeria have little exposure to computer programming.
             This lack of exposure hinders future opportunities. NaijaCoder is
-            geared towards using computer science as a tool for a better economic,
+            geared towards using computer science and engineering as a tool for a better economic,
             social, and academic life for youth. Given the diversity of the
             occupations and interests of the board members, we can provide
             mentorship on various career options — both of the technical and
@@ -128,6 +128,13 @@ const About = () => {
               link: "https://www.linkedin.com/in/benemdavids",
               linkType: "LinkedIn Link",
               suffix: ", Ph.D."
+            },
+            {
+              name: "Oluwatobi Alabi",
+              image: "./tobi_alabi.jpg",
+              title: "Social Media Manager",
+              link: "https://www.linkedin.com/in/oluwatobi-alabi",
+              linkType: "LinkedIn Link"
             }
           ].map((member, index) => (
             <div key={index} className="flex flex-col items-center text-center p-4">
@@ -154,6 +161,7 @@ const About = () => {
         </div>
 
         <div className="text-center font-bold text-3xl md:text-6xl p-3 pt-14 pb-14 w-full my-3">
+
           Advisory Team
         </div>
 

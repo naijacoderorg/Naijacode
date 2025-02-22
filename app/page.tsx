@@ -25,7 +25,7 @@ export default function Home() {
             Providing free instruction on:
           </h1>
           <p className="hero__subtitle">
-            The basics of algorithms--sorting algorithms, searching algorithms, and graph algorithms big O notation, and
+            The basics of algorithms--sorting algorithms, searching algorithms, graph algorithms, big O notation, and
             more.
           </p>
         </div>
