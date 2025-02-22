@@ -2,6 +2,8 @@ import React from 'react';
 import Link from 'next/link'; // Import Link from Next.js for client-side navigation
 
 
+
+
 const GetInvolved = () => {
   return (
     <div className="">
@@ -36,6 +38,7 @@ const GetInvolved = () => {
             />
             <img alt="" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1" />
           </form>
+
         </section>
 
         </div>

@@ -1,14 +1,13 @@
 import React from 'react';
 import Image from 'next/image';
 
-
 const About = () => {
   return (
     <>
-      <div className="flex-1 px-20 text-center">
-        <div className="flex-1 pt-36 padding-x hero__subtitle py-9">
-          <h1 className="hero__title justify-center text-center items-center">About Us</h1>
-          <p className="text-start">
+      <div className="px-4 md:px-20 text-center ">
+        <div className="pt-14 sm:pt-20 md:pt-36 max-w-screen-md mx-auto justify-between hero__subtitle py-9">
+          <h1 className="hero__title text-center text-3xl md:text-6xl">About Us!</h1>
+          <p className="pt-5 px-4 text-start text-sm sm:text-xl">
             Youth in Nigeria have little exposure to computer programming.
             This lack of exposure hinders future opportunities. NaijaCoder is
             geared towards using computer science and engineering as a tool for a better economic,
@@ -21,234 +20,169 @@ const About = () => {
             scientists (PhDs), and business leaders.
           </p>
         </div>
-
-        <div className="xl:flex-[1.5] flex justify-end items-end w-full xl:h-screen padding-x">
-          <div className="hero__image">
-            <Image src="./aboutusyouth.png" alt="hero" fill className="object-contain" />
-          </div>
-        </div>
       </div>
 
-      <div className="flex-col gap-5 relative z-0 w-max mx-auto">
-        <div className="text-center justify-between font-bold from-stone-950 text-6xl p-3 pt-6 pb-14 w-full my-3 object-contain">
+      <div className="px-4 max-w-6xl mx-auto">
+        <div className="text-center font-bold text-3xl md:text-6xl p-3 pt-6 pb-14 w-full my-3">
           Meet the NaijaCoder Team
         </div>
 
-        <div className="flex justify-center gap-14 p-3 sm:flex-shrink">
-          <div className="flex flex-col items-center text-center">
-            <div className="image__card mb-2">
-              <Image src="./Daniel_Alabi.jpg" alt="Daniel Alabi" width={118} height={118} className="object-contain" />
-              <div>Daniel Alabi, Ph.D.</div>
-            </div>
-            <div className="name__title mb-2">President and Lead Instructor</div>
-            <div>
-              <h3><u>  
-              <a className="website__link" target="_blank" href="http://alabidan.me">Website Link</a>
-              </u></h3>
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 md:gap-14">
+          {[
+            {
+              name: "Daniel Alabi",
+              title: "President and Lead Instructor",
+              image: "./Daniel_Alabi.jpg",
+              link: "http://alabidan.me",
+              linkType: "Website Link",
+              suffix: ", Ph.D."
+            },
+            {
+              name: "Lekan Afuye",
+              image: "./Lekan_Afuye.jpg",
+              title: "Vice President",
+              link: "https://www.linkedin.com/in/olalekan-afuye/",
+              linkType: "LinkedIn Link",
+              suffix: ", Ph.D."
+            },
+            {
+              name: "Alida Monaco",
+              image: "./Alida_Monaco.jpg",
+              title: "Chief of Operations",
+              link: "https://www.linkedin.com/in/alida-monaco-4699a482",
+              linkType: "LinkedIn Link"
+            },
+            {
+              name: "Philip Abel",
+              image: "./Philip_Abel.jpg",
+              title: "Secretary",
+              link: "https://www.linkedin.com/in/abelphilip/",
+              linkType: "LinkedIn Link"
+            },
+            {
+              name: "Zaidat Ibrahim",
+              image: "./Zaidat_Ibrahim.jpg",
+              link: "https://www.linkedin.com/in/zaidati",
+              linkType: "LinkedIn Link"
+            },
+            {
+              name: "Victory Yinka-Banjo",
+              image: "./Victory_Yinka-Banjo.jpg",
+              link: "https://www.linkedin.com/in/victory-yinka-banjo",
+              linkType: "LinkedIn Link"
+            },
+            {
+              name: "Ojima Abraham",
+              image: "./Ojima_Abraham.jpg",
+              link: "https://www.linkedin.com/in/ojima-abraham/",
+              linkType: "LinkedIn Link"
+            },
+            {
+              name: "Atinuke Adegbile",
+              image: "./Atinuke_Adegbile.jpg",
+              link: "https://ng.linkedin.com/in/atinuke-adegbile-267542b7",
+              linkType: "LinkedIn Link"
+            },
+            {
+              name: "Hamidah Oderinwale",
+              image: "./Hamidah_Oderinwale.jpg",
+              link: "https://ca.linkedin.com/in/hamidaho",
+              linkType: "LinkedIn Link"
+            },
+            {
+              name: "Eric Mibuari",
+              image: "./Eric_Mibuari.jpg",
+              link: "https://www.linkedin.com/in/eric-mibuari-bb24044/",
+              linkType: "LinkedIn Link",
+              suffix: ", Ph.D"
+            },
+            {
+              name: "Joshua Nwozor",
+              image: "./Joshua_Nwozor.jpg",
+              link: "https://www.linkedin.com/in/joshuatochukwunwozor",
+              linkType: "LinkedIn Link"
+            },
+            {
+              name: "Akachukwu Obi",
+              image: "./Akachukwu_Obi.jpg",
+              link: "https://www.linkedin.com/in/aobi",
+              linkType: "LinkedIn Link",
+              suffix: ", Ph.D"
+            },
+            {
+              name: "Joseph Ekpenyong",
+              image: "./Joseph_Ekpenyong.jpg",
+              link: "https://www.linkedin.com/in/joejekpenyong",
+              linkType: "LinkedIn Link"
+            },
+            {
+              name: "Ekene Ezeunala",
+              image: "./Ekene_Ezeunala.jpg",
+              link: "https://www.linkedin.com/in/ekene-ezeunala/",
+              linkType: "LinkedIn Link"
+            },
+            {
+              name: "Benem Davids",
+              image: "./Benem_Davids.jpg",
+              title: "Webmaster",
+              link: "https://www.linkedin.com/in/benemdavids",
+              linkType: "LinkedIn Link",
+              suffix: ", Ph.D."
+            },
+            {
+              name: "Oluwatobi Alabi",
+              image: "./tobi_alabi.jpg",
+              title: "Social Media Manager",
+              link: "https://www.linkedin.com/in/oluwatobi-alabi",
+              linkType: "LinkedIn Link"
+            }
+          ].map((member, index) => (
+            <div key={index} className="flex flex-col items-center text-center p-4">
+              <div className="image__card mb-2">
+                <Image
+                  src={member.image}
+                  alt={member.name}
+                  width={118}
+                  height={118}
+                  className="object-contain"
+                />
+                <div className="text-sm sm:text-base mt-2">
+                  {member.name}{member.suffix || ''}
+                </div>
               </div>
-          </div>
-
-          <div className="flex flex-col items-center text-center">
-            <div className="image__card mb-2">
-              <Image src="./Lekan_Afuye.jpg" alt="Lekan Afuye" width={118} height={118} className="object-contain" />
-              <div>Lekan Afuye, Ph.D.</div>
-            </div>
-            <div className="name__title">Vice President</div>
-            <div className="linkedin__link">
-              <h3><u>
-              <a href="https://www.linkedin.com/in/olalekan-afuye/" target="_blank">LinkedIn Link</a>
-                </u></h3>
-            </div>
-          </div>
-
-          <div className="flex flex-col items-center text-center">
-            <div className="image__card mb-2">
-              <Image src="./Alida_Monaco.jpg" alt="Alida Monaco" width={118} height={118} className="object-contain" />
-              <div>Alida Monaco</div>
-            </div>
-            <div className="name__title">Chief of Operations</div>
-            <div className="linkedin_link">
+              {member.title && <div className="name__title mb-2">{member.title}</div>}
+              <div>
                 <h3><u>
-          <a href="https://www.linkedin.com/in/alida-monaco-4699a482" target="_blank">LinkedIn Link</a>
-          </u></h3>
-    </div>
-          </div>
-        </div>
-
-        <div className="flex justify-center gap-14 p-3 sm:flex-shrink">
-          <div className="flex flex-col items-center text-center">
-            <div className="image__card mb-2">
-              <Image src="./Philip_Abel.jpg" alt="Philip Abel" width={118} height={118} className="object-contain" />
-              <div>Philip Abel</div>
-            </div>
-            <div className="name__title">Secretary</div>
-            <div className="linkedin__link">
-               <h3><u>
-                 <a href="https://www.linkedin.com/in/abelphilip/" target="_blank">LinkedIn Link</a>
-               </u></h3>
-            </div>
-          </div>
-
-          <div className="flex flex-col items-center text-center">
-            <div className="image__card mb-2">
-              <Image src="./Zaidat_Ibrahim.jpg" alt="Zaidat Ibrahim" width={118} height={118} className="object-contain" />
-            </div>
-            <div className="name__title">Zaidat Ibrahim</div>
-            <div className="linkedin__link">
-               <h3><u>
-              <a href="https://www.linkedin.com/in/zaidati" target="_blank">LinkedIn Link</a>
-               </u></h3>
-               </div>
-          </div>
-
-          <div className="flex flex-col items-center text-center">
-            <div className="image__card mb-2">
-              <Image src="./Victory_Yinka-Banjo.jpg" alt="Victory Yinka-Banjo" width={118} height={118} className="object-contain" />
-            </div>
-            <div className="name__title">Victory Yinka-Banjo</div>
-            <div className="linkedin_link">
-               <h3><u>
-              <a href="https://www.linkedin.com/in/victory-yinka-banjo" target="_blank">LinkedIn Link</a>
-               </u></h3>
-               </div>
-          </div>
-        </div>
-
-        <div className="flex justify-center gap-14 p-3 sm:flex-shrink">
-          <div className="flex flex-col items-center text-center">
-            <div className="image__card mb-2">
-              <Image src="./Ojima_Abraham.jpg" alt="Ojima Abraham" width={118} height={118} className="object-contain" />
-            </div>
-            <div className="name__title">Ojima Abraham</div>
-            <div className="linkedin__link">
-              <h3><u>
-              <a href="https://www.linkedin.com/in/ojima-abraham/" target="_blank">LinkedIn Link</a>
-              </u></h3>
+                  <a href={member.link} target="_blank">{member.linkType}</a>
+                </u></h3>
               </div>
-          </div>
-
-          <div className="flex flex-col items-center text-center">
-            <div className="image__card mb-2">
-              <Image src="./Atinuke_Adegbile.jpg" alt="Atinuke Adegbile" width={118} height={118} className="object-contain" />
             </div>
-            <div className="name__title">Atinuke Adegbile</div>
-            <div className="linkedin__link">
-              <h3><u>
-              <a href="https://ng.linkedin.com/in/atinuke-adegbile-267542b7" target="_blank">LinkedIn Link</a>
-              </u></h3>
-              </div>
-          </div>
-
-          <div className="flex flex-col items-center text-center">
-            <div className="image__card mb-2">
-              <Image src="./Hamidah_Oderinwale.jpg" alt="Hamidah Oderinwale" width={118} height={118} className="object-contain" />
-              <div>Hamidah Oderinwale</div>
-            </div>
-            <div className="linkedin__link">
-              <h3><u><a href="https://ca.linkedin.com/in/hamidaho" target="_blank">LinkedIn Link</a>
-              </u></h3></div>
-          </div>
+          ))}
         </div>
 
-        <div className="flex justify-center gap-14 p-3 sm:flex-shrink">
-          <div className="flex flex-col items-center text-center">
-            <div className="image__card mb-2">
-              <Image src="./Eric_Mibuari.jpg" alt="Eric Mibuari" width={118} height={118} className="object-contain" />
-              <div>Eric Mibuari, Ph.D</div>
-              </div>
-           
-            <div className="linkedin_link">
-              <h3><u><a href="https://www.linkedin.com/in/eric-mibuari-bb24044/" target="_blank">LinkedIn Link</a></u></h3>
-            </div>
-          </div>
+        <div className="text-center font-bold text-3xl md:text-6xl p-3 pt-14 pb-14 w-full my-3">
 
-          <div className="flex flex-col items-center text-center">
-            <div className="image__card mb-2">
-              <Image src="./Joshua_Nwozor.jpg" alt="Joshua Nwozor" width={118} height={118} className="object-contain" />
-              <div>Joshua Nwozor</div>
-            </div>
-            <div className="linkedin_link">
-              <h3><u>
-              <a href="https://www.linkedin.com/in/joshuatochukwunwozor" target="_blank">LinkedIn Link</a>
-              </u></h3>
-              </div>
-          </div>
-
-          <div className="flex flex-col items-center text-center">
-            <div className="image__card mb-2">
-              <Image src="./Akachukwu_Obi.jpg" alt="Akachukwu Obi" width={118} height={118} className="object-contain" />
-              <div>Akachukwu Obi, Ph.D</div>
-            </div>
-          
-            <div className="linkedin__link">
-              <h3><u>
-              <a href="https://www.linkedin.com/in/aobi" target="_blank">LinkedIn Link</a>
-              </u></h3></div>
-          </div>
-        </div>
-
-        <div className="flex justify-center gap-14 p-3 sm:flex-shrink">
-          <div className="flex flex-col items-center text-center">
-            <div className="image__card mb-2">
-              <Image src="./Joseph_Ekpenyong.jpg" alt="Joseph Ekpenyong" width={118} height={118} className="object-contain" />
-            </div>
-            <div className="name__title">Joseph Ekpenyong</div>
-            <div className="linkedin_link">
-              <h3><u><a href="https://www.linkedin.com/in/joejekpenyong" target="_blank">LinkedIn Link</a></u></h3>
-            </div>
-          </div>
-
-          <div className="flex flex-col items-center text-center">
-            <div className="image__card mb-2">
-              <Image src="./Ekene_Ezeunala.jpg" alt="Ekene Ezeunala" width={118} height={118} className="object-contain" />
-            </div>
-            <div className="name__title">Ekene Ezeunala</div>
-            <div className="linkedin__link">
-              <h3><u>
-              <a href="https://www.linkedin.com/in/ekene-ezeunala/" target="_blank">LinkedIn Link</a>
-              </u></h3></div>
-          </div>
-
-          <div className="flex flex-col items-center text-center">
-            <div className="image__card mb-2">
-              <Image src="./Benem_Davids.jpg" alt="Benem Davids" width={118} height={118} className="object-contain" />
-              <div>Benem Davids, Ph.D.</div>
-            </div>
-            <div className="name__title">Webmaster</div>
-            <div className="linkedin__link">
-              <h3><u><a href="https://www.linkedin.com/in/benemdavids" target="_blank">LinkedIn Link</a></u></h3>
-            </div>
-          </div>
-        </div>
-
-        <div className="flex justify-center gap-14 p-3 sm:flex-shrink">
-          <div className="flex flex-col items-center text-center">
-            <div className="image__card mb-2">
-              <Image src="./tobi_alabi.jpg" alt="Oluwatobi Alabi" width={118} height={118} className="object-contain" />
-              <div>Oluwatobi Alabi</div>
-            </div>
-            <div className="name__title">Social Media Manager</div>
-            <div className="linkedin__link">
-              <h3><u><a target="_blank" href="https://www.linkedin.com/in/oluwatobi-alabi">LinkedIn</a>
-              </u></h3>
-            </div>
-          </div>
-        </div>
-
-        <div className="text-center justify-between font-bold from-stone-950 text-6xl p-3 pt-14 pb-14 w-full my-3 object-contain">
           Advisory Team
         </div>
 
-        <div className="flex justify-center gap-14 p-3 sm:flex-shrink">
+        <div className="flex justify-center p-3 pb-8">
           <div className="flex flex-col items-center text-center">
             <div className="image__card mb-2">
-              <Image src="./Jelani_Nelson.jpg" alt="Jelani Nelson" width={118} height={118} className="object-contain" />
+              <Image
+                src="./Jelani_Nelson.jpg"
+                alt="Jelani Nelson"
+                width={118}
+                height={118}
+                className="object-contain"
+              />
               <div>Jelani Nelson, Ph.D</div>
             </div>
             <div className="name__title">Lead Advisor</div>
             <div className="wikipedia">
-              <h3><u><a target="_blank" href="https://en.wikipedia.org/wiki/Jelani_Nelson">Wikipedia Link</a>
-              </u></h3></div>
+              <h3><u>
+                <a target="_blank" href="https://en.wikipedia.org/wiki/Jelani_Nelson">Wikipedia Link</a>
+              </u></h3>
+            </div>
           </div>
         </div>
       </div>
@@ -257,4 +191,3 @@ const About = () => {
 };
 
 export default About;
-
