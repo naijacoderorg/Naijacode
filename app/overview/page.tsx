@@ -10,9 +10,9 @@ const ProgramOverview = () => {
           <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-center">Summer 2025</h1>
           <div className="text-base md:text-lg space-y-2">
             <ol className="list-decimal list-inside space-y-2">
-              <li>Abuja camp (tentative) dates: August 4 – August 15</li>
-              <li>Lagos camp (tentative) dates: July 21 – August 1</li>
-              <li>Kano camp (tentative) dates: April 10 – April 21</li>
+              <li>Abuja camp dates: August 4 – August 15</li>
+              <li>Lagos camp dates: July 21 – August 1</li>
+              <s><li>Kano camp (tentative) dates: April 10 – April 21</li></s>
             </ol>
           </div>
         </div>
