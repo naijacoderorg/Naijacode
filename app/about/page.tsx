@@ -63,7 +63,8 @@ const About = () => {
               name: "Zaidat Ibrahim",
               image: "./Zaidat_Ibrahim.jpg",
               link: "https://www.linkedin.com/in/zaidati",
-              linkType: "LinkedIn Link"
+              linkType: "LinkedIn Link",
+              suffix: ", Ph.D."
             },
             {
               name: "Victory Yinka-Banjo",
