@@ -9,6 +9,11 @@ const ProgramOverview = () => {
         <div className="space-y-4">
           <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-center">Summer 2025</h1>
           <div className="text-base md:text-lg space-y-2">
+            The Lagos camp will take place at the <u><a href="http://airol.unilag.edu.ng/" className="hover:text-blue-600">AirLab</a></u> of 
+            the University of Lagos. The Abuja camp will take place at the 
+            <u><a href="https://reginapaciscollege.com/" className="hover:text-blue-600">Regina Pacis College</a></u> 
+            in Abuja.
+          </p>
             <ol className="list-decimal list-inside space-y-2">
               <li>Abuja camp dates: August 4 – August 15</li>
               <li>Lagos camp dates: July 21 – August 1</li>
