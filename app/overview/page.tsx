@@ -10,9 +10,7 @@ const ProgramOverview = () => {
           <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-center">Summer 2025</h1>
           <div className="text-base md:text-lg space-y-2">
             The Lagos camp will take place at the <u><a href="http://airol.unilag.edu.ng/" className="hover:text-blue-600">AirLab</a></u> of 
-            the University of Lagos. The Abuja camp will take place at the 
-            <u><a href="https://reginapaciscollege.com/" className="hover:text-blue-600">Regina Pacis College</a></u> 
-            in Abuja.
+            the University of Lagos. The Abuja camp will take place at the <u><a href="https://reginapaciscollege.com/" className="hover:text-blue-600">Regina Pacis College</a></u> in Abuja.
           </p>
             <ol className="list-decimal list-inside space-y-2">
               <li>Abuja camp dates: August 4 – August 15</li>
@@ -28,9 +26,7 @@ const ProgramOverview = () => {
           <p className="text-base md:text-lg">
             The Lagos camp was in collaboration with the <u><a href="http://airol.unilag.edu.ng/" className="hover:text-blue-600">AirLab</a></u> of 
             the University of Lagos. The camp took place from August 19 to August 30 at the 
-            AI & Robotics Labs in the University of Lagos. The Abuja camp took place at the 
-            <u><a href="http://airol.unilag.edu.ng/" className="hover:text-blue-600">Olumawu School</a></u> 
-            in Abuja from August 12 to August 23.
+            AI & Robotics Labs in the University of Lagos. The Abuja camp took place at the <u><a href="http://airol.unilag.edu.ng/" className="hover:text-blue-600">Olumawu School</a></u> in Abuja from August 12 to August 23.
           </p>
         </div>
 
