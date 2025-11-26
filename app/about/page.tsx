@@ -53,13 +53,6 @@ const About = () => {
               linkType: "LinkedIn Link"
             },
             {
-              name: "Philip Abel",
-              image: "./Philip_Abel.jpg",
-              title: "Secretary",
-              link: "https://www.linkedin.com/in/abelphilip/",
-              linkType: "LinkedIn Link"
-            },
-            {
               name: "Zaidat Ibrahim",
               image: "./Zaidat_Ibrahim.jpg",
               link: "https://www.linkedin.com/in/zaidati",
@@ -73,12 +66,6 @@ const About = () => {
               linkType: "LinkedIn Link"
             },
             {
-              name: "Ojima Abraham",
-              image: "./Ojima_Abraham.jpg",
-              link: "https://www.linkedin.com/in/ojima-abraham/",
-              linkType: "LinkedIn Link"
-            },
-            {
               name: "Atinuke Adegbile",
               image: "./Atinuke_Adegbile.jpg",
               link: "https://ng.linkedin.com/in/atinuke-adegbile-267542b7",
@@ -89,13 +76,6 @@ const About = () => {
               image: "./Hamidah_Oderinwale.jpg",
               link: "https://ca.linkedin.com/in/hamidaho",
               linkType: "LinkedIn Link"
-            },
-            {
-              name: "Eric Mibuari",
-              image: "./Eric_Mibuari.jpg",
-              link: "https://www.linkedin.com/in/eric-mibuari-bb24044/",
-              linkType: "LinkedIn Link",
-              suffix: ", Ph.D"
             },
             {
               name: "Joshua Nwozor",
@@ -114,12 +94,6 @@ const About = () => {
               name: "Joseph Ekpenyong",
               image: "./Joseph_Ekpenyong.jpg",
               link: "https://www.linkedin.com/in/joejekpenyong",
-              linkType: "LinkedIn Link"
-            },
-            {
-              name: "Ekene Ezeunala",
-              image: "./Ekene_Ezeunala.jpg",
-              link: "https://www.linkedin.com/in/ekene-ezeunala/",
               linkType: "LinkedIn Link"
             },
             {
