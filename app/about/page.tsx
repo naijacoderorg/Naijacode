@@ -72,15 +72,16 @@ const About = () => {
               linkType: "LinkedIn Link"
             },
             {
-              name: "Hamidah Oderinwale",
-              image: "./Hamidah_Oderinwale.jpg",
-              link: "https://ca.linkedin.com/in/hamidaho",
+              name: "Philip Abel",
+              image: "./Philip_Abel.jpg",
+              title: "Secretary",
+              link: "https://www.linkedin.com/in/abelphilip/",
               linkType: "LinkedIn Link"
             },
             {
-              name: "Joshua Nwozor",
-              image: "./Joshua_Nwozor.jpg",
-              link: "https://www.linkedin.com/in/joshuatochukwunwozor",
+              name: "Hamidah Oderinwale",
+              image: "./Hamidah_Oderinwale.jpg",
+              link: "https://ca.linkedin.com/in/hamidaho",
               linkType: "LinkedIn Link"
             },
             {
